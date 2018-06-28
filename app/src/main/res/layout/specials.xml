@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/specialbg">
+
+    <RelativeLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/background_dark_orange"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Specials"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            android:typeface="monospace" >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/point_of_interest_pic_white" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/advertising_white" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/badgetxt"
+            android:scaleType="fitXY"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="1"
+            android:background="@drawable/badge"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+      <com.handmark.pulltorefresh.library.PullToRefreshListView
+          android:id="@+id/listView1"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_alignParentLeft="true"
+          android:layout_marginRight="8dp"
+          android:layout_marginLeft="8dp"
+          android:layout_marginTop="8dp"
+          android:divider="#00000000"
+          android:dividerHeight="5dp"
+          android:smoothScrollbar="true"
+          android:layout_below="@+id/tabBar" />
+      
+       <!-- <SearchView
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tabBar">
+    </SearchView> -->
+    
+</RelativeLayout>

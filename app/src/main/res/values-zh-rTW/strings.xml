@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        
+    <string name="app_name">Coupon</string>
+        
+    <string name="beta">Coupon </string>
+    <string name="beta_version"> 試行版</string>
+
+    <string name="txt_company_name">Powered by Thoughts Igniter</string>
+    <string name="LogIn_msg">You are in Guest User \nAre you sure to sign In ?</string>
+        
+    <string name="action_settings">設定</string>
+        
+    <string name="Help">設定</string>
+    <string name="Account">帳戶</string>
+    <string name="Select_Country">請選擇國家</string>
+        
+    <string name="fb_register">Register using facebook.</string>
+    <string name="Logout">登出</string>
+        
+    <string name="Logout_msg">登出確認 \n你確定要登出？ </string>
+        
+    <string name="Cart">購物車</string>
+        
+    <string name="ProductDescription">優惠券介紹:</string>
+        
+    <string name="Participating_Outlets">分店地址</string>
+        
+    <string name="Term">使用條款</string>
+        
+    <string name="coupon_listing">優惠券列表</string>
+        
+    <string name="Term_use">使用條款</string>
+    <string name="Term_condition"> 条款和条件</string>
+        
+    <string name="Privacy">私隱條款</string>
+        
+    <string name="Today_Menu">選項</string>
+        
+    <string name="How_to_Redeem">如何兌換</string>
+        
+    <string name="Update">更新</string>
+        
+    <string name="Payments">付款</string>
+        
+    <string name="Product_Filter">篩選</string>
+        
+    <string name="apply">確認</string>
+        
+    <string name="ecoupon">優惠券編號:</string>
+        
+    <string name="Payment_title">付款</string>
+        
+    <string name="Support_Hotline">支援熱線</string>
+        
+    <string name="Merchant_Hotline">商家熱線</string>
+        
+    <string name="Feed_Back">意見</string>
+        
+    <string name="Submit">提交</string>
+        
+    <string name="Email">電子郵件</string>
+        
+    <string name="Email_mobile">電郵/手機號碼</string>
+        
+    <string name="username">用戶名</string>
+        
+    <string name="Signing">登入中 ...</string>
+        
+    <string name="Subject">標題</string>
+        
+    <string name="Message">留言</string>
+        
+    <string name="Enter_email_address">至：</string>
+        
+    <string name="Enter_email_Subject">標題：</string>
+        
+    <string name="Void">銷單</string>
+        
+    <string name="Filter">篩選</string>
+
+        
+    <string name="Coupon_Downloaded">優惠券已下載</string>
+        
+    <string name="Please_chk_Redeem">請檢查在兌換裡的\&apos;我的優惠券\&apos;</string>
+        
+    <string name="In_store_Redeem">在商店兌換</string>
+        
+    <string name="Booking">預訂</string>
+        
+    <string name="OutCall">外叫</string>
+        
+    <string name="OK">好</string>
+        
+    <string name="Password_has_been_sent">密碼已經發送到你的郵箱</string>
+        
+    <string name="Please_check_email">請檢查您的電子郵件是有效的</string>
+        
+    <string name="Already_Registered">檢查您的電子郵件</string>
+        
+    <string name="Please_enter_registered">請輸入註冊的電子郵件.</string>
+        
+    <string name="Invalid_Pin_no">無效的PIN碼。 </string>
+        
+    <string name="Retry">重試</string>
+        
+    <string name="NO">否</string>
+        
+    <string name="Confirm_Redeem">確認兌換</string>
+        
+    <string name="Are_you_sure">你肯定從預覽屏幕退出?</string>
+        
+    <string name="Bali_COUPON">MZCoupon</string>
+        
+    <string name="Download_Coupon">下載優惠券</string>
+        
+    <string name="do_not_leave_emty">請不要留下任何格空白。 </string>
+        
+    <string name="Password_must_8_20">密碼必須是8 - 20個字符</string>
+        
+    <string name="ensure_password_valid">請確保密碼是有效的。 </string>
+        
+    <string name="Bali">MZCoupon</string>
+    <string name="no_card_detail_stored">卡的詳細信息將不會被存儲在這裡。</string>
+        
+    <string name="Pay_Now">付款</string>
+        
+    <string name="Events">活動</string>
+        
+    <string name="UWelcome">歡迎</string>
+        
+    <string name="Country_of_Residence">汽車品牌/型號</string>
+        
+    <string name="Register_with_Email">用電子郵件註冊</string>
+        
+    <string name="UName">名字</string>
+        
+    <string name="By_registering">通過註冊，我同意使用條款。 </string>
+        
+    <string name="Register_Email">用電子郵件註冊</string>
+        
+    <string name="Useful_Contact">查詢專線</string>
+    <string name="facebook_app_id">655551837989474</string>
+        
+    <string name="Contact_Information">聯繫信息</string>
+        
+    <string name="Location">地點</string>
+        
+    <string name="Address">地址</string>
+        
+    <string name="Country">國家</string>
+        
+    <string name="Postal_Code">郵政編碼</string>
+        
+    <string name="Business_Name">商家名稱</string>
+        
+    <string name="Phone_No">電話號碼</string>
+        
+    <string name="Business_Sites">商家分店</string>
+        
+    <string name="Business_Profile">商家簡介</string>
+        
+    <string name="Rewards_Coupon">獎勵/優惠券</string>
+        
+    <string name="Rewards">獎勵</string>
+        
+    <string name="Coupon">優惠券</string>
+        
+    <string name="Coupons">優惠券</string>
+    <string name="Hotdeals">熱賣</string>
+        
+    <string name="Favourite">我的最愛夾</string>
+        
+    <string name="From_gallery">從圖庫</string>
+        
+    <string name="Take_picture">拍攝照片</string>
+        
+    <string name="Categories">分類</string>
+        
+    <string name="Enter_Text">留言:</string>
+        
+    <string name="About_Us">關於我們</string>
+        
+    <string name="Outlets">兌換地點</string>
+        
+    <string name="Payment">付款</string>
+        
+    <string name="Contact">聯繫</string>
+        
+    <string name="Remark">補充說明</string>
+        
+    <string name="order_details">訂購詳情</string>
+        
+    <string name="notes">註釋</string>
+        
+    <string name="Product_Name">產品:</string>
+        
+    <string name="Shop_Name">店:</string>
+        
+    <string name="OrderType">訂單類型:</string>
+        
+    <string name="Date">日期:</string>
+        
+    <string name="Time">時間:</string>
+        
+    <string name="Original_Price">原價</string>
+        
+    <string name="Now">現價</string>
+        
+    <string name="Call">呼叫</string>
+        
+    <string name="CallNow">現在呼叫</string>
+        
+    <string name="Items">項目</string>
+        
+    <string name="Modifier">選項</string>
+        
+    <string name="Pickup">自取</string>
+        
+    <string name="Delivery">外送</string>
+        
+    <string name="Order_Typetit">選項</string>
+        
+    <string name="Pickup_From">自取地址</string>
+        
+    <string name="Delivery_to">外送地址</string>
+        
+    <string name="Delivery_Time_From">選擇時間 (時間只供參考或會延誤)</string>
+        
+    <string name="Pickup_Time_From">選擇時間 (時間只供參考或會延誤)</string>
+        
+    <string name="bookmark">在此加入您的心儀優惠券。 </string>
+        
+    <string name="cartempty">請添加優惠券到您的購物車並進行付款!</string>
+
+        
+    <string name="No_worries">不用擔心，只需向我們提供您的電子郵件</string>
+        
+    <string name="Thank_You">謝謝您</string>
+        
+    <string name="check_Your">請從您的電子郵件查看新重置的密碼。 </string>
+        
+    <string name="Close">關閉</string>
+    <string name="Nearby">附近有什麼？ </string>
+    <string name="Back"> 返回</string>    
+    <string name="Sign_In">登入</string>    
+    <string name="Register">註冊</string>    
+    <string name="New_Register">新用戶註冊</string>    
+    <string name="Forgot_Password">忘記密碼?</string>    
+    <string name="Forgot_Password_title">忘記密碼</string>    
+    <string name="Password">密碼</string>    
+    <string name="Name">名字</string>    
+    <string name="Password_char">密碼(至少8個字符)</string>    
+    <string name="phoneno">手機號碼</string>    
+    <string name="gender">性別</string>    
+    <string name="dob">出生日期</string>
+        
+    <string name="Confirm">確認</string>    
+    <string name="Preview">預覽</string>    
+    <string name="Products">產品</string>    
+    <string name="Redeem">兌換</string>    
+    <string name="Redeem_result">兌換結果</string>    
+    <string name="Use_This_eCoupon">使用此券</string>
+        
+    <string name="Add_Cart">添加到購物車</string>    
+    <string name="Order_View">訂購資料</string>    
+    <string name="Next">繼續</string>    
+    <string name="Yes">是</string>
+    <string name="Cancel">取消</string>    
+    <string name="Agree">我同意</string>    
+    <string name="Coupon_Redeemed_instore">優惠券已在商店兌換</string>    
+    <string name="Coupon_Redeemed_already">此券已兌換!</string>    
+    <string name="redemption">兌換成功!</string>
+
+        
+    <string name="Please_Sign">請登錄您註冊的賬號</string>    
+    <string name="Welcome_Back">歡迎回來</string>
+    <string name="Outlet_Location">兌換地點</string>    
+    <string name="Special_Detail">推介詳情</string>    
+    <string name="Specials">推介</string>    
+    <string name="Activity">交易記錄</string>    
+    <string name="Details">交易詳情</string> 
+        
+       
+    <string name="Change_Password">更改密碼</string>    
+    <string name="Save">儲存</string>    
+    <string name="Current_Password">現有密碼</string>    
+    <string name="New_Password">新密碼</string>    
+    <string name="Confirm_Password">確認新密碼</string>    
+    <string name="Change_profile">編輯個人資料</string>
+
+
+    <string name="click_BACK_exit">請再次點擊返回鍵退出</string>    
+    <string name="Updated">已更新</string>    
+    <string name="Cart_Is_Empty">購物車是空的!</string>    
+    <string name="Item_Deleted">項目已刪除</string>    
+    <string name="Password_Changed">密碼已更改</string>    
+    <string name="User_Password_Wrong">密碼無效</string>    
+    <string name="Password_And_Confirm_not_equal">請確保密碼是有效的</string>    
+    <string name="Redeemed_Failed">兌換失敗!</string>    
+    <string name="Redeemed_Failed_qr">兌換失敗!</string>    
+    <string name="Product_out">產品缺貨!</string>    
+    <string name="pay_fail">付款不成功，請重試。 </string>    
+    <string name="pay_succe">您購買的優惠券將很快上傳給您。請檢查在兌換裡的\&apos;我的優惠券\&apos;。 </string>    
+    <string name="Mail_Sending">郵件發送...</string>    
+    <string name="Mail_Sent">郵件已發送</string>    
+    <string name="Can_Choose_only">只能選擇</string>    
+    <string name="Items_in_this">在這個項目</string>    
+    <string name="sele_only">只能選擇一個</string>    
+    <string name="No_Modifiers">無選項</string>    
+    <string name="Chosse_any_one_Items">請選擇其中一項。 </string>    
+    <string name="Modifier_in_this">在此選項</string>    
+    <string name="Choose_Pickup_From_and_Time">選擇自取地址和時間</string>
+        
+    <string name="Choose_Delivery_From_and_Time">選擇外送地址和時間</string>
+        
+    <string name="Choose_One_of_order_type">請選擇訂單類型</string>
+        
+    <string name="Order_Confirmed">訂單已確認</string>
+        
+    <string name="Purchased">已添加</string>
+        
+    <string name="Redeemed">已兌換</string>
+        
+    <string name="Try_Again">登入失敗! 您輸入的帳戶或密碼不正確</string>
+        
+    <string name="pl_enterfeilds">請不要留下任何格空白。 </string>
+        
+    <string name="pl_username">請輸入您的帳戶</string>
+        
+    <string name="Pl_password">請輸入您的密碼</string>
+        
+    <string name="No_server_Connection">沒有服務器連接</string>
+        <string name="Please_Enter_Email_and_Password">請輸入您的帳戶和密碼</string>.
+        
+    <string name="bluetooth_alert">請啟動藍牙</string>
+
+        
+    <string name="Google_Map_Navigation">谷歌地圖導航</string>
+        
+    <string name="Payment_Success">付款成功</string>
+        
+    <string name="Payment_Failed">付款失敗</string>
+        
+    <string name="Sure_Delete">確認刪除？ </string>
+        
+    <string name="No_Internet">沒有網絡!</string>
+
+        
+    <string name="No_voucher">尚未有購買的優惠券</string>
+        
+    <string name="No_redeemed">尚未有兌換的優惠券</string>
+        
+    <string name="No_expired">尚未有過期的優惠券</string>
+
+        
+    <string name="menu_Drag">拉一拉</string>
+    <string name="menu_shake">搖一搖</string>
+    <string name="menu_Special">推介</string>
+        
+    <string name="menu_Products">我的寶藏</string>
+        
+    <string name="menu_Reedem">兌換</string>
+        
+    <string name="menu_Help">幫助</string>
+
+        
+    <string name="total">總金額:</string>
+        
+    <string name="all_category">所有分類</string>
+
+        
+    <string name="Get_Started">開始</string>
+        
+    <string name="Reset_Password">重置密碼</string>
+        
+    <string name="Reviews">點評</string>
+        
+    <string name="Locations">地點</string>
+        
+    <string name="Share">分享</string>
+        
+    <string name="Success">成功</string>
+        
+    <string name="Failure">失敗</string>
+        
+    <string name="Expiry_Date">有效期至</string>
+        
+    <string name="Set_current_Location">設為當前位置</string>
+        
+    <string name="Bali_Map">地圖</string>
+        
+    <string name="Coupon_Options">優惠券選項</string>
+        
+    <string name="menu_Merchant">商家</string>
+        
+    <string name="scan_alert">掃描無效</string>
+        
+    <string name="balance_alert">沒有足夠的餘​​額處理支付</string>
+        
+    <string name="payment_alert">未能獲取支付碼</string>
+
+        
+    <string name="request_success_alert">請求成功</string>
+        
+    <string name="request_failure_alert">請求失敗</string>
+    <string name="sold">已下載</string>
+    <string name="left">可換領</string>
+    <string name="RedemptionQuota">可換領:</string>
+    <string name="Change_Name">更改名字</string>
+    <string name="Change_Mobile_Number">更改手機號碼</string>
+    <string name="Change_Email_Address">更改電子郵件</string>
+    <string name="expired">期限</string>
+    <string name="Due">期限</string>
+    <string name="Limit">限量</string>
+    <string name="Days">天</string>
+    <string name="Hours">小時</string>
+
+        
+    <string-array name="Settings">
+                
+        <item>一般資料</item>
+                
+        <item>MZCoupon</item>
+                
+        <item>MZCoupon</item>
+        <item>編輯個人資料</item>
+
+        <item>更改密碼</item>
+        <item>語言設置</item>
+
+        <!--        <item>信息</item>&ndash;&gt;-->
+        <!--        <item>地圖</item>&ndash;&gt;-->
+        <!--        <item>查詢專線</item>&ndash;&gt;-->
+
+                
+        <item>關注我們</item>
+        <!--        <item>Facebook</item>&ndash;&gt;-->
+        <!--        <item>Twitter</item>&ndash;&gt;-->
+        <!--        <item>Instagram</item>&ndash;&gt;-->
+                
+        <item>分享此應用程式</item>
+
+                
+        <item>關於</item>
+                
+        <item>關於我們</item>
+                
+        <item>意見</item>
+                
+        <item>MZCoupon v1.0(4)</item>
+
+                
+        <item>條款</item>
+                
+        <item>使用條款</item>
+                
+        <item>私隱條款</item>
+            
+    </string-array>
+
+
+    <string name="setting_general">一般資料</string>
+    <string name="setting_editprofile">編輯個人資料</string>
+    <string name="setting_changepw">更改密碼</string>
+    <string name="setting_lang">語言設置</string>
+    <string name="setting_followus">關注我們</string>
+    <string name="setting_sharetheapp">分享此應用程式</string>
+    <string name="setting_about">關於</string>
+    <string name="setting_aboutus">關於我們</string>
+    <string name="setting_feedback">意見</string>
+    <string name="setting_version">Coupon V1.0(4)</string>
+    <string name="setting_legal">條款</string>
+    <string name="setting_termsofuse">使用條款</string>
+    <string name="setting_privacy">私隱條款</string>
+     <string name="loading">載入中...</string>
+
+    <string-array name="cards_array">
+                
+        <item>我的優惠券</item>
+                
+        <item>已兌換</item>
+                
+        <item>逾期</item>
+            
+    </string-array>
+
+        
+    <string-array name="Cards_Pay">
+                
+        <item>信用卡</item>
+                
+        <item>eNETS</item>
+                
+        <item>中國銀聯</item>
+            
+    </string-array>
+
+        
+    <string name="you_are_not_updated_title">新版本!</string>
+        
+    <string name="you_are_not_updated_message">下載新版本以繼續使用!</string>
+        
+    <string name="topup">充值</string>
+        
+    <string name="PAYMENT">支付</string>
+        
+    <string name="TRANSCATIONS">交易單</string>
+        
+    <string name="pending_payment">待付款</string>
+        
+    <string name="wel_come">歡迎,</string>
+        
+    <string name="lastupdate">最後更新：</string>
+
+        
+    <string name="PENDING">待付款</string>
+        
+    <string name="TOPUP">充值</string>
+        
+    <string name="REJECTED">拒絕付款</string>
+        
+    <string name="PAID">已付款</string>
+        
+    <string name="adjustment_a">調整(+)</string>
+        
+    <string name="adjustment_m">調整(-)</string>
+        
+    <string name="deduct">扣除</string>
+
+    <string name="Approve">批准</string>
+        
+    <string name="Decline">拒絕</string>
+        
+    <string name="Confirm_Approve">確認批准？ </string>
+        
+    <string name="Confirm_Decline">確認拒絕？ </string>
+        
+    <string name="No_Transcation">還沒有交易記錄</string>
+        
+    <string name="No_PENDTranscation">還沒有待付款交易記錄</string>
+        
+    <string name="enter_amount">輸入金額</string>
+
+        
+    <string name="amount_alert">請輸入金額</string>
+        
+    <string name="refno_alert">請輸入參考編號"</string>
+
+        
+    <string name="email_no_alert">請輸入電郵/手機號碼</string>
+        
+    <string name="valid_email_no_alert">輸入有效資料</string>
+
+       
+    <string name="topup_success_alert">充值成功</string>
+        
+    <string name="topup_failure_alert">充值失敗</string>
+        
+    <string name="Ok">好</string>
+        
+    <string name="menu_Wallet">錢包</string>
+        
+    <string name="app_text">錢包</string>
+
+        
+    <string name="VALID_For">有效為</string>
+        
+    <string name="SECONDS_For">秒</string>
+
+        
+    <string name="drag_hint">搖一搖 / 掃描/ 代碼</string>
+        
+    <string name="code_alert">請輸入促銷代碼</string>
+        
+    <string name="invalid_code">促銷代碼未找到！ ！ ！ </string>
+
+        
+    <string name="join_lucky_draw">加入抽獎</string>
+        
+    <string name="con_topup">確認充值</string>
+        
+    <string name="coupon_instant_draw">獲取優惠券</string>
+        
+    <string name="share_btn">分享</string>
+        
+    <string name="follow_btn">跟隨</string>
+        
+    <string name="lucky_draw_number">幸運抽獎號碼</string>
+        
+    <string name="sel_merchant">選擇商家</string>
+        
+    <string name="call_cus_care">致電客戶服務中心</string>
+        
+    <string name="Qty_alert">請添加商品t</string>
+        
+    <string name="please_signin">請登錄</string>
+        
+    <string name="Pending">待處理</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_Deals">執到寶</string>
+
+        
+       <string name="wua">
+                MZCoupon, it\'s a Mobile Apps targeted at the industry that purpose is to provide business owners with great marketing and sales tools in one place.
+            </string>
+
+
+        <string name="welcome">
+                        歡迎 \n\n
+                        
+                        企業電子錢包 \n\n
+            </string>
+
+
+        
+    <string name="less">較少</string>
+        
+    <string name="more">更多</string>
+        
+    <string name="qty">數量  </string>
+        
+    <string name="send_as_gift">發送禮券</string>
+        
+    <string name="send_now">現在發送</string>
+        
+    <string name="send_gift_title">作為禮物送給別人吧！ </string>
+        
+    <string name="gift_message">贈送備註</string>
+        
+    <string name="enter_email_alert">請輸入電子郵件</string>
+        
+    <string name="enter_gift_msg_alert">請輸入贈送備註</string>
+        
+    <string name="sendasgift_faliure_alert">發送失敗...</string>
+
+        
+    <string name="lang_simplif">简体中文</string>
+        
+    <string name="lang_trand">繁體中文</string>
+        
+    <string name="lang_english">ENGLISH</string>    
+    <string name="LANGUAGE">語言設置</string>    
+    <string name="all_location">所有地點</string>    
+    <string name="all_merchant">所有商家</string>    
+    <string name="Merchants">商家</string>    
+    <string name="menu_Shop">店鋪</string>    
+    <string name="menu_Shop_title">店鋪</string>    
+    <string name="offers">提供</string>  
+    <string name="mobile">手機號碼</string>    
+    <string name="out_of_stock">缺貨</string>
+        
+    <string name="message">信息</string>    
+    <string name="transfer_now">現在轉讓</string>    
+    <string name="conform">確認</string>    
+    <string name="invalid_mail">電子郵件無效</string>
+
+    <string name="please_check_mobile">手機號碼無效</string>    
+    <string name="transfer_coupon">轉讓優惠券</string>    
+    <string name="skip_transfer">略過轉讓</string>    
+    <string name="sucess_transfer_alert">成功轉讓</string>    
+    <string name="sel_Outlet">選擇分店</string>    
+    <string name="next">下一步</string>    
+    <string name="redeem">兌換</string>
+
+    <string name="wallet_log">錢包記錄</string>    
+    <string name="coupon">優惠券</string>    
+    <string name="notification">通知信息</string>  
+    <string name="lucky_draw">幸運抽獎</string>       
+    <string name="reset_filter">重設篩選</string>            
+    <string name="mass_coupon">多重優惠券</string>         
+    <string name="outlet_detail_alert">店鋪詳情未找到</string>     
+    <string name="outlet_alert">在此位置沒有店鋪</string>
+
+    <string name="P0101">缺貨</string>
+    <string name="P0103">促銷代碼錯誤</string>
+    <string name="P0102">你已經參加了。</string>
+    <string name="P0104">促銷日期不匹配</string>
+    <string name="P0105">優惠券可用</string>
+    <string name="P0106">優惠券無法使用</string>
+    <string name="P0107"> 商戶代碼錯誤</string>
+
+    <string name="offer_alert">請登錄以獲取優惠</string>
+
+    <string name="Register_now">現在註冊</string>
+    <string name="whats_new">最新消息</string>
+
+    <string name="register">请注册后继续</string>
+    <string name="try_again">請再試一次</string>
+    <string name="guest_login">訪客登錄</string>
+    <string name="user_guide">User Guide</string>
+
+
+    <string name="editname">Edit Name</string>
+    <string name="editmobile">Edit Mobile No.</string>
+    <string name="editcourtry">Edit Country</string>
+
+    <string name="letstart">
+
+
+
+
+Last Updated: 31 March 2015\n\n
+
+This Terms &amp; Conditions describes how Walnet (‘we’) handles your personal information.\n\n
+
+This includes the information that Walnet collects from you when you sign up for, use, access or otherwise interact with any Walnet applications, products, services, or on websites or other media such as Apps (collectively, “Services”), how we use and share that information, including information we may obtain from other sources, and the choices we offer.\n\n
+
+This Terms &amp; Conditions Sets out the following:\n\n
+
+•Collection of Information\n\n
+
+•Third Party Advertising and Analytics\n\n
+
+•Use of Information\n\n
+
+•Sharing of Information\n\n
+
+•Security\n\n
+
+•Your Choices\n\n
+
+This policy applies to all information we collect through our Services, even if you have not signed up for a Walnet account or downloaded one of our applications. This policy does not, however, describe the practices of third parties that may collect information from you when you interact with them, including Merchants that use Walnet to accept payment for goods or services (“Merchants”). We encourage you to ask them about their privacy practices before providing any information to them.\n\n
+
+We may change this policy from time to time. If we make changes, we will notify you by posting the updated policy and revising the “Last Updated” date above. We encourage you to review the policy whenever you use our Services to stay informed about our information practices and about the choices available to you.\n\n
+
+Collection of Information\n\n
+
+Information You Provide\n\n
+
+We collect information you provide, such as when you sign up for a Walnet Merchant, when you provide information as part of our identity verification process, in the course of a transaction, or when you request a digital receipt. We may collect, but are not limited to collecting, the following: basic user information, such as your name, email address, mailing address, phone number, photograph, and birth date; financial information, including bank account and payment card numbers; and other historical, contact, and demographic information.\n\n
+
+We also collect information when you upload or send information to or through the Services about your products and services (including inventory, pricing and other data), participate in contests or promotions offered by Walnet or our partners, respond to our surveys, or otherwise communicate with us.\n\n
+
+Information We Collect from Your Use of the Services\n\n
+
+We collect information about you when you use our Services, including as follows:\n\n
+
+Transaction Information. When you use our Services to make or accept payments or money transfers, we collect information about when and where the transactions occurred, a description of the transactions, the payment or transfer amounts, billing and shipping information, and information about the devices and payment methods used to complete the transactions.
+Location Information. When one of our applications is open on your mobile device, we periodically receive information about the location of the device. We may also collect location information about your device if you are near a Merchant with whom you have auto check-in enabled. For more information and to learn how to disable location information, please see “Your Choices” below.
+Device Information. We collect device-specific information when you access our Services, including your hardware model, operating system and version, unique device identifiers, mobile network information, and information about the device’s interaction with our Services. We may also identify other software running on the device (but will not collect any content from such software) for anti-fraud and malware-prevention purposes.
+Usage Information. We collect information about how you use our Services, including your access times, browser types and language, and Internet Protocol (“IP”) addresses.
+Information Collected by Cookies and Web Beacons. We use various technologies to collect information, and this may include sending cookies to your computer or mobile device. Cookies are small data files that are stored on your hard drive or in device memory by a website. Among other things, cookies support the integrity of our registration process, retain your preferences and account settings, and help evaluate and compile aggregated statistics about user activity. We may also collect information using web beacons. Web beacons are electronic images that may be used in our Services or emails. We may use web beacons to deliver cookies, count visits, understand usage and campaign effectiveness, and determine whether an email has been opened and acted upon.
+Information We Collect From Other Sources\n\n
+
+We may also collect information about you from third parties, including but not limited to third-party verification services, credit bureaus, mailing list providers, and publicly available sources. In some circumstances, depending on the nature of services available in a particular country, this information may include your Social Security or taxpayer identification number.\n\n
+
+Third-Party Advertising and Analytics\n\n
+
+We may allow third parties to serve advertisements in connection with our Services and to provide analytics services. These third parties may use cookies, web beacons, and other technologies to collect information, such as your IP addresses, identifiers associated with your mobile device or applications on the device, the browsers you use to visit our Services, pages viewed, time spent on pages, links clicked, and conversion information. This information may be used by Walnet and other companies to analyse and track data, determine the popularity of certain content, deliver advertising and content targeted to your interests, and better understand your usage. This policy does not apply to, and we are not responsible for, third-party cookies, web beacons, or other tracking technologies, and we encourage you to check the privacy policies of these third parties to learn more about their privacy practices. For more information about targeted advertising specifically, or to opt out of having your browser information used for these purposes, please visit www.aboutads.info/choices.\n\n
+
+Use of Information\n\n
+
+We use information about you to provide, maintain, and improve our Services and to deliver the information and support you request, including receipts, technical notices, security alerts, and support and administrative messages.\n\n
+
+We also use information about you to improve and personalize the Services. To take just one example, when you sign up for a Walnet account, we may associate certain information with your new account, such as information about other accounts you have or had with Walnet and prior transactions you made through the Walnet Services.\n\n
+
+We may use information we collect to send you news and information about our Services and to communicate with you about products, services, contests, promotions, incentives, and rewards offered by us and select partners.\n\n
+
+We may also use information about you to track and analyse trends and usage in connection with our Services; to process and deliver contest and promotion entries and rewards; to protect our rights or property; to verify your identity; to investigate and prevent fraud or other illegal activities; and for any other purpose disclosed to you in connection with our Services.\n\n
+
+We may, or we may use third-party service providers to, process and store personal information in the Singapore and other countries around the world and you agree to this transfer, storing and processing.\n\n
+
+Digital Receipts\n\n
+
+If you choose to receive receipts via email or text message, we store the email address or phone number you provide. We use your email address or phone number to send you a receipt for your purchase and to automatically send you digital receipts for future purchases you make from other Merchants. Digital receipts may contain additional messages, offers, or links that may be of interest to you. For example, you may be able to submit feedback, share your experience on social media, view your purchase history, join programs, visit websites, or take advantage of promotions. When you submit or share information through a receipt (such as submitting feedback), we may share that information with Merchants and you may receive responses. As mentioned above, this policy does not describe the practices of Merchants that may receive or collect information from you. We encourage you to ask them about their privacy practices before providing any information to them. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in the “Your Choices” section of this policy.\n\n
+
+Sharing of Information\n\n
+
+We may share personal information about you as follows:\n\n
+
+With third parties to provide, maintain, and improve our Services, including service providers who access information about you to perform services on our behalf (e.g., fraud prevention and verification services), and including financial institutions, processors, payment card associations, and other entities that are part of the payment or transfer process;
+With others who have signed up for Walnet accounts in order to provide our Services. For example, we may share information when you make or accept a payment or transfer using our Services. We may also share information about you when you are located near a Walnet Merchant with whom you have auto check-in enabled;
+With third parties that run advertising campaigns, contests, special offers, or other events or activities in connection with our Services;
+In connection with, or during the negotiation of, any merger, sale of company stock or assets, financing, acquisition, divestiture, or dissolution of all or a portion of our business;
+If we believe that disclosure is reasonably necessary to comply with any applicable law, regulation, legal process, or governmental request; to enforce applicable agreements or policies; to protect the security or integrity of our Services; and to protect us, our Merchants, end users, or the public from harm or illegal activities; and
+With your consent.
+We may also share aggregated, non-personally identifiable information with third parties.\n\n
+
+Security\n\n
+
+We take reasonable measures, including administrative, technical, and physical safeguards, to help protect personal information from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction. We hold personal information at our own premises and with the assistance of our service providers.\n\n
+
+Your Choices\n\n
+
+Location Information\n\n
+
+When you first launch our mobile applications, you will be asked to consent to the application’s collection of location information. We currently require this location information in order to provide our Services, so if you do not consent to this collection, you cannot use our Services. If you initially consent to our collection of location information, you can subsequently stop our collection of location information at any time by changing the preferences on your mobile device. If you do so, the Walnet application will no longer function. You may also stop our collection of location information by following the standard uninstall process to remove Walnet applications from your device.\n\n
+
+Cookies\n\n
+
+When you use the Services, we try to make your experience simple and meaningful. When you access or use the Services, our web server sends a cookie to your computer or mobile device (as the case may be). Cookies are small pieces of information that are issued to your computer or mobile device (as the case may be) when you visit a website or access or use a mobile application, and which store and sometimes track information about your use of the Services. Certain cookies we use last only for the duration of your web or application session and expire when you close your browser or exit the application. Other cookies are used to remember you when you return to use the Services and, as such, will last longer.\n\n
+
+We use cookies to:\n\n
+
+remember that you have visited us or used the Services before. This means we can identify the number of unique visitors we receive, which allows us to make sure we have enough capacity to accommodate all of our users;
+customise elements of the promotional layout and/or content of our website or application; and
+collect anonymous statistical information about how you use the Services (including the length of your web or application session) and the location from which you access the Services, so that we can improve the Services and learn which elements and functions of the Services are most popular with our users.
+Some of the cookies used in the Services are set by us, and others are set by third parties who deliver services on our behalf.\n\n
+
+Most web and mobile device browsers are set to automatically accept cookies by default. However, you can change your browser settings to prevent automatic acceptance of cookies, or to notify you each time a cookie is set. You also can learn more about cookies by visiting www.allaboutcookies.org, which includes additional useful information on cookies and how to block cookies on different types of browsers and mobile devices. Please note, however, that by blocking or deleting cookies used in the Services, you may not be able to take full advantage of the Services.\n\n
+
+Preferences\n\n
+
+Personal Information. You may change or correct information about yourself by logging into your Walnet account at any time or by emailing us at hello@Walnet.com. You may also email us if you wish to deactivate your account. We may retain archived copies of information about you and your transactions for a period of time that is consistent with applicable law.
+Digital Receipts. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in your digital receipt.
+Promotional Communications. You may opt out of receiving promotional emails or text messages from Walnet by following the instructions in those emails or text messages. If you opt out, we may still send you non-promotional communications, such as digital receipts and messages about your account or our ongoing business relations.\n\n
+ </string>
+</resources>

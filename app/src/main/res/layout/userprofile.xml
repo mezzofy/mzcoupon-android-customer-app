@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/specialbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/tab"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:text="@string/UWelcome"
+            android:textColor="@color/white"
+            android:textSize="15sp" >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <Button
+                android:id="@+id/confirmprofbut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/Confirm"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/linardob" />
+
+            <Spinner
+                android:id="@+id/genderfield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:background="@drawable/spinner_background_holo_light"
+                android:popupBackground="#6E6E6E"
+                android:prompt="@string/gender"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:textColorHint="@android:color/white"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/phonefield"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dialog"/>
+
+            <LinearLayout android:id="@+id/linardob"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_below="@+id/genderfield">
+
+            <EditText
+                android:id="@+id/dobfield"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:background="@drawable/apptheme_edit_text_holo_light"
+                android:hint="@string/dob"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:textColorHint="@android:color/darker_gray"
+                android:inputType="date"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/genderfield"/>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignBottom="@+id/dobfield"
+                android:layout_toRightOf="@+id/dobfield"
+                android:contentDescription="@string/dob"
+                android:cropToPadding="true"
+                android:onClick="selectDate"
+                android:src="@drawable/ic_action_settings_gray" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/phonefield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:paddingLeft="10dp"
+                android:inputType="phone"
+                android:background="@drawable/apptheme_edit_text_holo_light"
+                android:gravity="center"
+                android:hint="@string/phoneno"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:layout_below="@+id/countryfield"
+                android:layout_marginTop="10dp">
+            </EditText>
+
+            <Spinner
+                android:id="@+id/countryfield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:background="@drawable/spinner_background_holo_light"
+                android:popupBackground="#6E6E6E"
+                android:gravity="center"
+                android:prompt="@string/Country_of_Residence"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="100dp"
+                android:spinnerMode="dialog">
+
+            </Spinner>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

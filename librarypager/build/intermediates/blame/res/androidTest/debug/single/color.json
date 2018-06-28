@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Definig a container for you List Item-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+    <!-- Defining where should text be placed. You set you text color here-->
+
+    <TextView
+        android:id="@+id/list_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:text="sample"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_action_accept"
+        android:visibility="gone" />
+
+</LinearLayout>

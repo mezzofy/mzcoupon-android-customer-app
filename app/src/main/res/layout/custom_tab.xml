@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout3">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/navblue"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/tab_one"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/badgetxt"
+                android:scaleType="fitXY"
+                android:textColor="@color/tabtext_color"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="1"
+                android:visibility="gone"
+                android:background="@drawable/badge"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/deal_image"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/deals_w" />
+
+            <TextView
+                android:id="@+id/deal_text"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/menu_Deals"
+                android:textSize="12sp"
+                android:textColor="@color/tabtext_color"
+                android:layout_below="@+id/deal_image"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/tab_two"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/coupon_image"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/coupons" />
+
+            <TextView
+                android:id="@+id/coupon_text"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/menu_Products"
+                android:textSize="12sp"
+                android:textColor="@color/tabtext_color"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/coupon_image" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:id="@+id/tab_three"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/shake_text"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/menu_shake"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/tabtext_color"-->
+                <!--android:layout_below="@+id/shake_image"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/shake_image"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:src="@drawable/drag"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/tab_four"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cart_text"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Cart"
+                android:textSize="12sp"
+                android:textColor="@color/tabtext_color"
+                android:layout_below="@+id/cart_image"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:id="@+id/cart_image"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/cart"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/tab_five"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/setting_text"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/menu_setting"
+                android:textSize="12sp"
+                android:textColor="@color/tabtext_color"
+                android:layout_below="@+id/setting_image"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:id="@+id/setting_image"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/settings"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:id="@+id/tab_six"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/wallet_text"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/menu_Wallet"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_below="@+id/wallet_image"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/wallet_image"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:src="@drawable/wallet"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+        <!--</RelativeLayout>-->
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

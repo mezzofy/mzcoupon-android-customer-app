@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_section_linear"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:background="@drawable/settingbg"
+    android:gravity="center_vertical"
+    android:paddingRight="?android:attr/scrollbarSize"
+
+    >
+    <TextView
+        android:id="@+id/list_section_entry_title"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dip"
+        android:ellipsize="start"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

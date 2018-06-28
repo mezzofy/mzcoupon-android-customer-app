@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MZCoupon(githubLib).iml" filepath="$PROJECT_DIR$/MZCoupon(githubLib).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zxing/Zxing.iml" filepath="$PROJECT_DIR$/Zxing/Zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingActionButton/floatingActionButton.iml" filepath="$PROJECT_DIR$/floatingActionButton/floatingActionButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libSwipyRefresh/libSwipyRefresh.iml" filepath="$PROJECT_DIR$/libSwipyRefresh/libSwipyRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryanim/libraryanim.iml" filepath="$PROJECT_DIR$/libraryanim/libraryanim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarypager/librarypager.iml" filepath="$PROJECT_DIR$/librarypager/librarypager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryrefresh/libraryrefresh.iml" filepath="$PROJECT_DIR$/libraryrefresh/libraryrefresh.iml" />
+    </modules>
+  </component>
+</project>

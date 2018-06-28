@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mezzofy.mzcoupon"
+    android:versionCode="8"
+    android:versionName="1.7">
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.mezzofy.mzcoupon.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <permission
+        android:name="com.mezzofy.mzcoupon.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!-- End of copy. -->
+
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+
+    <application
+        android:name="com.mezzofy.mzcoupon.Activity.Applaunch"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme.Base">
+
+
+        <!-- ** You need to replace the key below with your own key. **
+         The example key below will not be accepted because it is not linked to the
+         certificate which you will use to sign this application.
+         See: https://developers.google.com/maps/documentation/android/start
+         for instructions on how to get your own key. -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDjxFtnXOGMMCrMRO4CMyWl9HWXgquuHRk"/>
+        <!-- Deploy key. AIzaSyBgjJeYLSU7BxmLMPUUmzTX64oRDE-_a7M-->
+        <!-- Local key. AIzaSyCtKZVkU7faxE3KV1MpFMSKCWo141NnwJo-->
+
+        <meta-data
+            android:name="MerchantId"
+            android:value="dmha"/>
+
+        <meta-data
+            android:name="credencial_Key"
+            android:value="NPNN10"/>
+
+        <meta-data
+            android:name="credencial_Secret"
+            android:value="x"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@dimen/facebook_app_id"/>
+
+        <meta-data
+            android:name="io.branch.sdk.BranchKey"
+            android:value="key_live_mostAZa9WK45iY9uJSYbCifguBjA5bN5" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider655551837989474"
+            android:exported="true" />
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.DeepLinkActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <data android:scheme="coupon" android:host="post" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.LoginCheckAction"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.google.zxing.client.android.CaptureActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SignInActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            />
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.ForgetActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.MailsentActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.ProgressActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.TabMainActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SpecialDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Campaigndetail_Activity"
+            android:screenOrientation="portrait"></activity>
+
+
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.FavouriteActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SiteActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.TermConditionActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Cart_ProdDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.ChangepwdActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PaymentActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.CredencialView"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.CategoryActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SitelocationActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.TabViewActivtiy"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PaymentTranscationActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Transcation_detailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.CouponDetail_Activity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.QrCodewalnetActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.QrCodeActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Cart_siteLocationActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Cart_termConditionActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Coupon_SiteActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Coupon_siteLocationActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Coupon_termConditionActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PickupActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PrivacyActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PreviewActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.AboutUs_Activity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.FeedbackActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Redeem_StatusActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Receipt_MailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.OrderView_Activity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Payment_SucceActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.MenuList_Activity"
+            android:screenOrientation="portrait"></activity>
+
+        <activityPrivacyActivity
+            android:name="com.mezzofy.mzcoupon.Activity."
+            android:screenOrientation="portrait"></activityPrivacyActivity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.AgreeActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.WebViewActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.CouponList_Activity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Service_PickupActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Event_DetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Regist_TermActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Merch_RedeemActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Point_interestActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Useful_ContactActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.NearplaceActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.Youtube_VideoPlayerActivity"
+            android:screenOrientation="sensorLandscape"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.ImageDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SendAsGiftActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.LanguageActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.FilterActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.LocationActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.MyScanActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.AgentCashActivtiy"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.CouponCardsActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.CashConformActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PendingTranscActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.TopupActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.TopupPaymentActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.MerchantListActivtiy"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.SiteListActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.MassCouponActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.MassRedeemQrActivtiy"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.NotificationActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.PromerceDollarActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.TopupDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.mezzofy.mzcoupon.Activity.EditorActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+
+        <receiver
+            android:name="com.mezzofy.mzcoupon.Activity.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.mezzofy.mzcoupon" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mezzofy.mzcoupon.Activity.GCMNotificationIntentService" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="io.card.payment.DataEntryActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="cf0488b2bd3ceea5aefc49cf9293536702049af4" />
+    </application>
+
+</manifest>

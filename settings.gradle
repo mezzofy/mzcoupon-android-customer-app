@@ -1,0 +1,9 @@
+include ':librarypager'
+include ':libraryrefresh'
+include ':floatingActionButton'
+include ':libraryanim'
+include ':libSwipyRefresh'
+include ':Zxing'
+include ':app'
+
+

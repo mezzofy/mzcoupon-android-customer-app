@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relative_lay1"
+        style="@style/layout_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/topup"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relative_lay1"
+        android:fillViewport="true"
+        android:isScrollContainer="false">
+
+        <RelativeLayout
+            android:id="@+id/relative_lay2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20sp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                style="@style/padding"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/white_gray_rectangle"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textvalue"
+                    style="@style/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/textvalue1"
+                    style="@style/paddingLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="200"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textvalue2"
+                    style="@style/paddingLeft"
+                    android:layout_weight="1"
+                    android:text="500" />
+
+                <TextView
+                    android:id="@+id/textvalue3"
+                    style="@style/paddingLeft"
+                    android:layout_weight="1"
+                    android:text="1,000" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignStart="@+id/linearLayout"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:gravity="center"
+                android:hint="@string/enter_amount"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/wallet_secondary_text_holo_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/amount"
+                android:background="@color/white" />
+
+
+            <EditText
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/view"
+                android:background="@color/black"
+                android:gravity="center"
+                android:hint="@string/Remark"
+                android:textColor="@color/white"
+                android:textColorHint="@color/wallet_secondary_text_holo_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/remark"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/top_up"
+                style="@style/bottom_but_red"
+                android:layout_below="@+id/view3"
+                android:background="@drawable/mybutton"
+                android:text="@string/topup"
+                android:textColor="@color/white" />
+
+            <!--<Button-->
+            <!--android:id="@+id/scan"-->
+            <!--style="@style/bottom_but_yellow"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:text="@string/scan_topup"></Button>-->
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

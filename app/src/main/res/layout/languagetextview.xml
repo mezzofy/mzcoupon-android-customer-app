@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Definig a container for you List Item-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    >
+    <!-- Defining where should text be placed. You set you text color here-->
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/appicon" />
+
+    <TextView
+        android:id="@+id/list_content"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:textAlignment="gravity"
+        android:text="sample"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="0dp"
+        android:gravity="right|center_vertical"
+        android:text="Medium Text"
+        android:textColor="@color/black"
+        android:textSize="15sp" android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:id="@+id/bg_item_entry_drawable"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/white_gray_rectangle">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_action_accept" />
+
+    </RelativeLayout>
+
+</LinearLayout>

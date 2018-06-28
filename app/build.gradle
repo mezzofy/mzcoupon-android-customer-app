@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+    defaultConfig {
+        applicationId "com.mezzofy.mzcoupon"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName 'V1.0(1)'
+        multiDexEnabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+        }
+        debug {
+            minifyEnabled false
+            testCoverageEnabled=true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+
+    afterEvaluate {
+        tasks.matching {
+            it.name.startsWith('dex')
+        }.each { dx ->
+            if (dx.additionalParameters == null) {
+                dx.additionalParameters = ['--multi-dex']
+            } else {
+                dx.additionalParameters += '--multi-dex'
+            }
+        }
+    }
+
+
+    allprojects {
+        repositories {
+            maven { url 'https://www.jitpack.io' }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+        transitive = true;
+    }
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.estimote:sdk:0.10.8@aar'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.14.2'
+    compile 'se.akerfeldt:okhttp-signpost:1.1.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:animated-vector-drawable:25.3.1'
+    compile 'com.android.support:mediarouter-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:support-v13:25.3.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.google.android.gms:play-services:9.0.2'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'io.branch.sdk.android:library:1.+'
+    compile 'com.squareup:seismic:1.0.2'
+    compile project(':librarypager')
+    compile project(':libraryrefresh')
+    compile project(':libSwipyRefresh')
+    compile project(':floatingActionButton')
+    compile project(':libraryanim')
+    compile project(':Zxing')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'org.sqldroid:sqldroid:1.0.3'
+
+
+    compile 'com.github.mezzofy:mzcoupon-android-customer-lib:1.0.0'
+}
+
+
+
+
+

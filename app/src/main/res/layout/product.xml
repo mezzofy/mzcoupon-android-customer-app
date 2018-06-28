@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signin_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/tab"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/subtxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace">
+
+        </TextView>
+
+        <!--<ImageView-->
+            <!--android:id="@+id/txtTitle"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/logog"-->
+
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="15sp" >-->
+
+        <!--</ImageView>-->
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_Deals"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/fav_m" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView1"
+            android:layout_toRightOf="@+id/imageView1"
+            android:src="@drawable/map" />
+
+
+        <ImageView
+            android:id="@+id/imageViewflit2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/event"
+            android:layout_toStartOf="@+id/event"
+            android:src="@drawable/imgpsh_fullsize" />
+
+        <TextView
+            android:id="@+id/filterindicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/event"
+            android:layout_toStartOf="@+id/event"
+            android:background="@drawable/bluebadge"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:text="*"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/event"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/advertising" />
+
+        <TextView
+            android:id="@+id/eventindicator1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/filterindicat"
+            android:background="@drawable/bluebadge"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/favindicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/map"
+            android:layout_toStartOf="@+id/map"
+            android:background="@drawable/bluebadge"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:text="*"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="gone"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/filterindicat"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/subtxtTitle"
+            android:layout_toLeftOf="@+id/event"
+            android:layout_toStartOf="@+id/event"
+            android:background="@drawable/bluebadge"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:text="F"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <SearchView
+        android:id="@+id/searchly"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tabBar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:queryHint="Discover">
+
+    </SearchView>
+
+
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/swipyrefreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchly"
+        android:layout_marginTop="5dp"
+        app:direction="both">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/special"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/searchly"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/light_gray"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/Specials"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:visibility="gone" />
+
+                <!--<ListView-->
+                    <!--android:id="@+id/speciallist"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_below="@+id/special"-->
+                    <!--android:divider="@color/black"-->
+                    <!--android:smoothScrollbar="true" />-->
+
+                <Button
+                    android:id="@+id/hotdeals"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_below="@+id/speciallist"
+                    android:layout_gravity="center"
+                    android:background="@drawable/topdeals"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/coupon"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_below="@+id/speciallist"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:background="@color/light_gray"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/Coupons"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="16dp" />-->
+
+
+                <ListView
+                    android:id="@+id/couponlist"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/coupon"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00000000"
+                    android:divider="#00000000"
+                    android:dividerHeight="8dp"
+                    android:smoothScrollbar="true" />
+
+            </LinearLayout>
+        </ScrollView>
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

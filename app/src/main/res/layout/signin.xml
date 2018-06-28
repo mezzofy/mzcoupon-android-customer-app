@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signin_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/specialbg">
+
+    <RelativeLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/walletSign_In"
+            android:textColor="@color/tab"
+            android:textSize="15sp" ></TextView>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/tabBar"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/apptheme_edit_text_holo_light"
+                    android:hint="@string/Email_mobile"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp"></EditText>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_layout_email">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_layout_email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/apptheme_edit_text_holo_light"
+                    android:hint="@string/Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/signinbutton"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/input_layout_password"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/navblue"
+                android:elevation="2dp"
+                android:text="@string/Submit"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/forgotpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/signinbutton"
+                android:layout_alignRight="@+id/signinbutton"
+                android:layout_alignTop="@+id/new_register"
+                android:text="@string/Forgot_Password"
+                android:textColor="#221E1F"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/new_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signinbutton"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/New_Register"
+                android:textColor="#221E1F"
+                android:textSize="13sp" />
+
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:visibility="visible"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/forgotpassword"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/powerbyMZ"
+        android:text="Powered by Mezzofy"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="11dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/mzsmall"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+</RelativeLayout>

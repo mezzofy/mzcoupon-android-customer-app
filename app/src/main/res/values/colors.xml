@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorPrimary">#a0a9ae</color>
+	<color name="primaryBlue">#a0a9ae</color>
+	<color name="colorPrimaryDark">#078ECC</color>
+	<color name="tabMedium">#686868</color>
+	<color name="tabDark">#686868</color>
+	<color name="tabTransparent">#10ffffff</color>
+	
+	<drawable name="focused">#ffffff</drawable>
+    <drawable name="selected">#FF00FF</drawable>
+	
+	<color name="white">#FFFFFF</color>
+	<color name="orange">#F84415</color>
+	<color name="blue">#0000ff</color>
+	<color name="btnblue">#007AFF</color>
+    <color name="dark_gray">#2d2d2d</color>
+    <color name="light_gray">#ba3d3d3d</color>
+	<color name="black">#000000</color>
+	<color name ="red">#FF0000</color>
+	<color name ="yellow">#FFEB3B</color>
+
+
+
+
+	<color name="tabtext_color">#808080</color>
+
+	<color name ="light_orange">#f8951e</color>
+	<color name ="tab">#f8951e</color>
+	<color name="navblue">#2E3450</color>
+	<color name="tab_color">#555555</color>
+	<color name="text_color">#ffffff</color>
+
+
+	<color name="background">#FFFFFF</color>
+	<color name="background_dark_orange">#f8951e</color>
+	<color name="background_light_orange">#fcb03f</color>
+	<color name="background_dark_blue">#0f75bd</color>
+	<color name="background_light_blue">#24aae1</color>
+	<color name="background_light_green">#5ec639</color>
+
+
+</resources>
+

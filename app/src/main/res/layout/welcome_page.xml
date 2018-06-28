@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signin_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/code_linear"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/qr_code"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@color/orange"
+            android:src="@drawable/qr_code" />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="16"
+            android:background="#90FFFFFF"
+            android:gravity="center"
+            android:hint="@string/drag_hint"
+            android:inputType="number"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/lucky_draw"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="#0000ff"
+            android:src="@drawable/lucky_draw" />
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/code_linear"
+        android:background="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="8dp"
+        android:smoothScrollbar="true" />
+
+
+    <TextView
+        android:id="@+id/beta_version"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView15"
+        android:gravity="center"
+        android:text="@string/beta_version"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/guest"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:text="@string/guest_login"-->
+       <!--android:layout_marginLeft="280dp"-->
+        <!--android:layout_alignBottom="@+id/register_card"-->
+        <!--android:textSize="15sp"-->
+    <!--/>-->
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/Sign_In"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guest_login"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textSize="15sp" />
+
+
+    </RelativeLayout>

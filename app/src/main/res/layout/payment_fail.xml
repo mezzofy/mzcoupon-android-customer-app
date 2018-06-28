@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/specialbg">
+    
+    <RelativeLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Payment_title"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:typeface="monospace" >
+
+        </TextView>
+		
+     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/oops" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/pay_fail"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+         android:id="@+id/TextViewCal"
+          android:layout_width="fill_parent"
+          android:layout_height="40dp"
+          android:gravity="center"
+          android:layout_centerInParent="true"
+          android:layout_alignParentBottom="true"
+          android:textColor="@color/white"
+          android:textSize="15sp"
+          android:text="@string/Close"
+          android:background="@color/tab"/>
+
+</RelativeLayout>

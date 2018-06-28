@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coupon</string>
+    <string name="beta">Coupon </string>
+    <string name="beta_version">Beta Version</string>
+    <string name="txt_company_name">Powered by Edenred </string>
+    <string name="action_settings">Settings</string>
+    <string name="Help">Settings</string>
+    <string name="Account">Account</string>
+    <string name="Logout">Sign Out</string>
+    <string name="Logout_msg">Sign out confirmation \nAre you sure to sign out ?</string>
+    <string name="LogIn_msg">You are in Guest User \nAre you sure to sign In ?</string>
+    <string name="Cart">Cart</string>
+    <string name="ProductDescription">Coupon Details : </string>
+    <string name="Participating_Outlets"> Shop Address </string>
+    <string name="Term"> Terms of Use </string>
+    <string name="Term_condition"> Terms &amp; Conditions</string>
+    <string name="coupon_listing"> Coupons </string>
+    <string name="Term_use">Terms &amp; Conditions of Use</string>
+    <string name="Privacy">Privacy Policy</string>
+    <string name="Today_Menu"> Options </string>
+    <string name="How_to_Redeem"> How to Redeem </string>
+    <string name="Update"> Update Qty </string>
+    <string name="Delivery_Time_From">Deliver Time From</string>
+    <string name="Pickup_Time_From">Pickup Time From</string>
+    <string name="Product_Filter">Categories</string>
+    <string name="Filter">Filter</string>
+    <string name="apply">APPLY</string>
+    <string name="ecoupon">eVoucher : </string>
+    <string name="Support_Hotline">Support Hotline</string>
+    <string name="Merchant_Hotline">Merchant Hotline</string>
+    <string name="Feed_Back">Feedback</string>
+    <string name="Submit">Submit</string>
+    <string name="Email">Email</string>
+    <string name="Email_mobile">Email</string>
+    <string name="username">Username</string>
+    <string name="Signing">Signing in ..</string>
+    <string name="Subject">Subject</string>
+    <string name="Message">Message</string>
+    <string name="Enter_email_address">To :</string>
+    <string name="Enter_email_Subject">Subject:</string>
+    <string name="facebook_app_id">655551837989474</string>
+
+
+    <string name="Coupon_Downloaded">Coupon Downloaded</string>
+    <string name="Please_chk_Redeem">Please check your \&apos;My Coupon\&apos; in Redeem</string>
+    <string name="In_store_Redeem">In-store Redeem</string>
+    <string name="Booking">Booking</string>
+    <string name="OutCall">OutCall</string>
+    <string name="OK">OK</string>
+    <string name="Password_has_been_sent">Password has been sent to Your Mail</string>
+    <string name="Please_check_email">Please check your email address is valid.</string>
+    <string name="Already_Registered">Check your email</string>
+    <string name="Please_enter_registered">Please enter registered email.</string>
+    <string name="Invalid_Pin_no">Invalid Pin no.</string>
+    <string name="Retry">Retry</string>
+    <string name="NO">NO</string>
+    <string name="Confirm_Redeem">Confirm Redeem</string>
+    <string name="Are_you_sure">Are you sure to exist from preview screen ?</string>
+    <string name="Bali_COUPON">MZCoupon</string>
+    <string name="Download_Coupon">Download Coupon</string>
+    <string name="do_not_leave_emty">Please do not leave any field empty.</string>
+    <string name="Password_must_8_20">Password must be 8 - 20 characters long</string>
+    <string name="ensure_password_valid">Please ensure password is the valid.</string>
+    <string name="Select_Country">Please Select Country</string>
+    <string name="Bali">MZCoupon</string>
+    <string name="Pay_Now">Pay Now</string>
+    <string name="Events">Events</string>
+    <string name="UWelcome">Welcome</string>
+    <string name="Country_of_Residence">Car Brand / Model</string>
+    <string name="Register_with_Email">Register with Email</string>
+    <string name="UName">Name</string>
+    <string name="By_registering">By registering, I agree to the term &amp; conditions.</string>
+    <string name="fb_register">Register using facebook.</string>
+    <string name="Register_Email">Register with Email</string>
+    <string name="Register_now">Register Now</string>
+    <string name="Useful_Contact">Useful Contact</string>
+    <string name="Contact_Information">Contact Information</string>
+    <string name="Location">Location</string>
+    <string name="Address">Address</string>
+    <string name="Country">Country</string>
+    <string name="Postal_Code">Postal Code</string>
+    <string name="Business_Name">Business Name</string>
+    <string name="Phone_No">Phone No</string>
+    <string name="Business_Sites">Business Sites</string>
+    <string name="Business_Profile">Business Profile</string>
+    <string name="Rewards_Coupon">Rewards/Coupon</string>
+    <string name="Rewards">Rewards</string>
+    <string name="Coupon">Coupon</string>
+    <string name="Coupons">Coupons</string>
+    <string name="Hotdeals">Hotdeals</string>
+    <string name="Favourite">Favourites</string>
+    <string name="From_gallery">From gallery</string>
+    <string name="Take_picture">Take picture</string>
+    <string name="Categories">Categories</string>
+    <string name="Enter_Text">Message :</string>
+    <string name="About_Us">About Us</string>
+    <string name="Outlets">Redemption Address</string>
+    <string name="Payment">Paid</string>
+    <string name="Payment_title">Payment</string>
+    <string name="Payments">Payments</string>
+    <string name="Contact">Contact</string>
+    <string name="Remark">REMARKS</string>
+    <string name="order_details">ORDER DETAILS</string>
+    <string name="notes">NOTES</string>
+    <string name="Product_Name"> Product : </string>
+    <string name="Shop_Name"> Shop : </string>
+    <string name="OrderType"> OrderType : </string>
+    <string name="Date"> Date : </string>
+    <string name="Time"> Time : </string>
+    <string name="Original_Price">Original</string>
+    <string name="Now">Now</string>
+    <string name="Call">Call</string>
+    <string name="CallNow">Call Now</string>
+    <string name="Items">Items</string>
+    <string name="Modifier">Options</string>
+    <string name="Pickup">Pick up</string>
+    <string name="Delivery">Delivery</string>
+    <string name="Order_Typetit">Options</string>
+    <string name="Pickup_From">PICK UP ADDRESS</string>
+    <string name="Delivery_to">DELIVERY ADDRESS</string>
+    <string name="bookmark">Bookmark your favourite coupons here.</string>
+    <string name="cartempty">Please add coupons to your Cart and proceed with Payment!</string>
+
+    <string name="No_worries">No worries, Just provide us your Email</string>
+    <string name="Thank_You">Thank You</string>
+    <string name="check_Your">Please Check your Mail for the new reset Password</string>
+    <string name="Close">CLOSE</string>
+    <string name="Nearby">What\&apos;s Nearby?</string>
+
+    <string name="Back">&#60; Back</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="walletSign_In">Wallet Sign In</string>
+    <string name="Register">Register</string>
+    <string name="New_Register">New Register</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="Forgot_Password_title">Forgot Password</string>
+    <string name="Password">Password </string>
+    <string name="Name">Name</string>
+    <string name="Password_char">Password (8-20 chars)</string>
+    <string name="phoneno">Phone/mobile</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+
+    <string name="Confirm">Confirm</string>
+    <string name="Preview">Preview</string>
+    <string name="Products">Products</string>
+    <string name="Redeem">Redeem</string>
+    <string name="Redeem_result">Redemption Result</string>
+
+    <string name="Use_This_eCoupon"> Use This eCoupon </string>
+    <string name="Add_Cart">Add to Cart</string>
+    <string name="Order_View">Order Details</string>
+    <string name="Yes">Yes</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Agree">I Agree</string>
+    <string name="Coupon_Redeemed_instore">Coupon Redeemed In-Store</string>
+    <string name="Coupon_Redeemed_already">Coupon Already Redeemed</string>
+    <string name="redemption">Redemption Success !</string>
+
+    <string name="Please_Sign">Please Sign In With Your Registered Details</string>
+    <string name="Welcome_Back">Welcome Back</string>
+
+    <string name="Outlet_Location">Redemption Location</string>
+    <string name="Special_Detail">Special Detail</string>
+    <string name="Specials">Specials</string>
+    <string name="Activity">Transaction Records</string>
+    <string name="Details">Details</string>
+
+    <string name="Change_Password">Change Password</string>
+    <string name="Save">Save</string>
+    <string name="Current_Password">Current Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Change_profile">Edit Profile</string>
+
+
+    <string name="click_BACK_exit">Please click BACK again to exit</string>
+    <string name="Updated">Updated</string>
+    <string name="Cart_Is_Empty">Cart Is Empty</string>
+    <string name="Item_Deleted">Item Deleted</string>
+    <string name="Password_Changed">Password Changed</string>
+    <string name="User_Password_Wrong">Password is the Same As Old.</string>
+    <string name="Password_And_Confirm_not_equal">Please ensure password is the valid.</string>
+    <string name="Redeemed_Failed">Redeemed Failed ! </string>
+    <string name="Redeemed_Failed_qr">Coupon Out of Stock</string>
+    <string name="Product_out">Product out of Stock</string>
+    <string name="pay_fail">Payment Unsuccessful, please try again.</string>
+    <string name="pay_succe">Your purchased voucher(s) will be uploaded to you shortly. Please check “My eCoupon”.</string>
+    <string name="Mail_Sending">Mail Sending...</string>
+    <string name="Mail_Sent">Mail Sent</string>
+    <string name="Can_Choose_only">Can Choose only</string>
+    <string name="Items_in_this">Items in this</string>
+    <string name="sele_only">SELECT ONE ONLY</string>
+    <string name="No_Modifiers">No Options</string>
+    <string name="Chosse_any_one_Items">Chosse any one Items </string>
+    <string name="Modifier_in_this">Options in this</string>
+    <string name="Choose_Pickup_From_and_Time">Choose Pick up From and Time</string>
+    <string name="Choose_Delivery_From_and_Time">Choose Delivery From and Time</string>
+    <string name="Choose_One_of_order_type">Choose One of order type</string>
+    <string name="Order_Confirmed">Order Confirmed</string>
+    <string name="Purchased">Added to cart</string>
+    <string name="Redeemed">Redeemed</string>
+    <string name="Try_Again">Sign in failed ! The Email or Password that you entered is incorrect</string>
+    <string name="pl_enterfeilds">Please do not leave any field empty.</string>
+    <string name="pl_username">Please enter your username</string>
+    <string name="Pl_password">Please enter your password</string>
+    <string name="No_server_Connection">No server Connection</string>
+    <string name="Please_Enter_Email_and_Password">Please Enter Email and Password</string>
+
+    <string name="Google_Map_Navigation">Google Map Navigation</string>
+    <string name="Payment_Success">Payment Success</string>
+    <string name="Payment_Failed">Payment Failed</string>
+    <string name="Sure_Delete">Confirm to delete?</string>
+    <string name="No_Internet">No Internet!</string>
+
+    <string name="No_voucher">No purchased Coupons yet</string>
+    <string name="No_redeemed">No redeemed Coupons yet</string>
+    <string name="No_expired">No expired Coupons yet</string>
+
+    <string name="menu_Drag">Drag</string>
+    <string name="menu_shake">Shake</string>
+    <string name="menu_Deals">Deals</string>
+    <string name="menu_Special">special</string>
+    <string name="menu_Products">Coupons</string>
+    <string name="menu_Reedem">redeem</string>
+    <string name="menu_Help">help</string>
+    <string name="menu_Wallet">WALLET</string>
+
+    <string name="total">Total :</string>
+    <string name="all_category">All Category</string>
+
+    <string name="Get_Started">GET STARTED</string>
+    <string name="Reset_Password">Reset Password</string>
+    <string name="Reviews">Reviews</string>
+    <string name="Locations">Locations</string>
+    <string name="Share">Share</string>
+    <string name="Success">Success</string>
+    <string name="Failure">Failure</string>
+    <string name="Expiry_Date">Expiry Date</string>
+    <string name="Set_current_Location">Set current Location</string>
+    <string name="Bali_Map">MZCoupon Map</string>
+    <string name="Coupon_Options">Coupon Options</string>
+    <string name="menu_Merchant">merchants</string>
+    <string name="menu_settings">Settings</string>
+    <string name="left">Redeemable</string>
+    <string name="sold">Downloaded</string>
+    <string name="RedemptionQuota"> Redeemable:</string>
+    <string name="Change_Name">Change Name</string>
+    <string name="Change_Mobile_Number">Change Mobile Number</string>
+    <string name="Change_Email_Address">Change Email Address</string>
+
+    <string name="expired">expired</string>
+    <string name="Due">Due</string>
+    <string name="Limit">Limit</string>
+    <string name="Days">days</string>
+    <string name="Hours">hours</string>
+
+    <string-array name="Settings">
+        <item>GENERAL</item>
+        <item>Edenred HK Ltd</item>
+        <item>Gray TSANG</item>
+        <item> Edit Profile</item>
+        <item>Change Password</item>
+        <item>Language</item>
+
+        <!--<item>INFORMATION</item>-->
+        <!--<item>Map</item>-->
+        <!--<item>Useful Contacts</item>-->
+
+        <item>FOLLOW US</item>
+        <!--<item>Facebook</item>-->
+        <!--<item>Twitter</item>-->
+        <!--<item>Instagram</item>-->
+        <item>Share this App</item>
+
+        <item>ABOUT</item>
+        <item>About Us</item>
+        <item>Feedback</item>
+        <item>MZCoupon V1.0(4)</item>
+
+        <item>LEGAL</item>
+        <item>Terms of Use</item>
+        <item>Privacy Policy</item>
+    </string-array>
+
+
+    <string name="setting_general">GENERAL</string>
+    <string name="setting_editprofile">Edit Profile</string>
+    <string name="setting_changepw">Change Password</string>
+    <string name="setting_lang">Language</string>
+    <string name="setting_followus">FOLLOW US</string>
+    <string name="setting_sharetheapp">Share this App</string>
+    <string name="setting_about">ABOUT</string>
+    <string name="setting_aboutus">About Us</string>
+    <string name="setting_feedback">Feedback</string>
+    <string name="setting_version">Coupon V1.0(4)</string>
+    <string name="setting_legal">LEGAL</string>
+    <string name="setting_termsofuse">Terms of Use</string>
+    <string name="setting_privacy">Privacy Policy</string>
+
+    <string name="loading">Loading...</string>
+
+
+
+
+
+    <string-array name="cards_array">
+        <item>My Coupon</item>
+        <item>Redeemed</item>
+        <item>Expired</item>
+    </string-array>
+
+    <string-array name="Cards_Pay">
+        <item>Credit Cards</item>
+        <item>eNETS</item>
+        <item>China UnionPay</item>
+    </string-array>
+
+    <string name="you_are_not_updated_title">New version!</string>
+    <string name="you_are_not_updated_message">Download the new version to proceed!</string>
+    <string name="app_text">WALLET</string>
+    <string name="topup">TOP UP</string>
+    <string name="PAYMENT">PAYMENT</string>
+    <string name="TRANSCATIONS">TRANSACTIONS</string>
+    <string name="pending_payment">PENDING PAYMENTS</string>
+    <string name="wel_come">WELCOME</string>
+    <string name="lastupdate">Last Updated:</string>
+
+    <string name="Pending">Pending</string>
+    <string name="PENDING">PENDING</string>
+    <string name="TOPUP">TOPUP</string>
+    <string name="REJECTED">REJECTED</string>
+    <string name="PAID">PAID</string>
+    <string name="adjustment_a">ADJUSTMENT(+)</string>
+    <string name="adjustment_m">ADJUSTMENT(-)</string>
+    <string name="deduct">DEDUCT</string>
+    <string name="Void">VOIDED</string>
+
+    <string name="Approve">Approve</string>
+    <string name="Decline">Decline</string>
+    <string name="Confirm_Approve">Confirm to Approve?</string>
+    <string name="Confirm_Decline">Confirm to Decline?</string>
+    <string name="No_Transcation">No Transcation Records Yet</string>
+    <string name="No_PENDTranscation">No Pending Payment</string>
+    <string name="no_card_detail_stored">No Card details will be stored here.</string>
+
+    <string name="enter_amount">ENTER AMOUNT</string>
+    <string name="amount_alert">Please enter Amount</string>
+    <string name="refno_alert">Please enter Reference No</string>
+    <string name="email_no_alert">Please enter Email_id/Mobile_No</string>
+    <string name="valid_email_no_alert">Enter Valid Detail</string>
+
+    <string name="topup_success_alert">Topup done Successfully</string>
+    <string name="topup_failure_alert">Topup Failed</string>
+    <string name="Ok">Ok</string>
+
+    <string name="VALID_For">VALID FOR</string>
+    <string name="SECONDS_For">SECONDS</string>
+    <string name="next">Next</string>
+    <string name="Next">Next</string>
+    <string name="redeem">Redeem</string>
+    <string name="drag_hint">Shake / Scan / Code</string>
+    <string name="code_alert">Please enter the Promo code</string>
+    <string name="invalid_code">Promo Code Not Found!!!</string>
+    <string name="join_lucky_draw">Join Lucky Draw</string>
+    <string name="coupon_instant_draw">Get Coupon</string>
+    <string name="con_topup">CONFIRM TOP UP</string>
+    <string name="share_btn">Share</string>
+    <string name="follow_btn">Follow</string>
+    <string name="wallet_log">WALLET LOG</string>
+    <string name="coupon">COUPONS</string>
+    <string name="notification">NOTIFICATIONS</string>
+    <string name="lucky_draw">LUCKY DRAW</string>
+    <string name="mass_coupon">Mass Coupon</string>
+    <string name="bluetooth_alert">Please enable your bluetooth</string>
+    <string name="call_cus_care">Call Customer Service</string>
+    <string name="scan_alert">Invalid Scan</string>
+    <string name="balance_alert">Not enough balance to process payment</string>
+    <string name="payment_alert">Failed to get pay code</string>
+    <string name="request_success_alert">Request Successful</string>
+    <string name="request_failure_alert">Request Failed</string>
+
+    <string name="try_again">Please try again</string>
+
+    <string name="wua">
+MZCoupon, it\'s a Mobile Apps targeted at the industry that purpose is to provide business owners with great marketing and sales tools in one place.
+</string>
+
+
+    <string name="welcome">
+WELCOME \n\n
+
+THE ENTERPRISE DIGITAL WALLET \n\n
+
+NTTCOM ASIA LIMITED
+</string>
+
+    <string name="less">less</string>
+    <string name="more">more</string>
+    <string name="qty">Qty:  </string>
+    <string name="send_as_gift">Send as Gift </string>
+    <string name="send_now">Send Now</string>
+    <string name="send_gift_title">Send as a Gift to someone now.\n Cheers.</string>
+    <string name="gift_message">Gift Message</string>
+    <string name="enter_email_alert">Please enter Email_id</string>
+    <string name="enter_gift_msg_alert">Please enter Gift Message</string>
+    <string name="sendasgift_faliure_alert">Sending Failed...</string>
+
+    <string name="lang_simplif">简体中文</string>
+    <string name="lang_trand">繁体中文</string>
+    <string name="lang_english">ENGLISH</string>
+    <string name="LANGUAGE">LANGUAGE</string>
+    <string name="all_location">All Locations</string>
+    <string name="all_merchant">Merchants</string>
+    <string name="Merchants">Merchants</string>
+    <string name="menu_Shop">Shops</string>
+    <string name="menu_Shop_title">shops</string>
+    <string name="offers">Offers</string>
+    <string name="mobile">Mobile No</string>
+    <string name="out_of_stock">Out of stock</string>
+
+    <string name="message">Message</string>
+    <string name="transfer_now">Transfer now</string>
+    <string name="conform">Conform</string>
+    <string name="invalid_mail">Invalid Email</string>
+
+    <string name="please_check_mobile">Invalid Mobile no</string>
+    <string name="transfer_coupon">Transfer Coupon</string>
+    <string name="skip_transfer">Skip Transfer</string>
+    <string name="sucess_transfer_alert">Transfered successfully</string>
+    <string name="sel_Outlet">SELECT OUTLET</string>
+    <string name="lucky_draw_number">LUCKY DRAW NUMBER</string>
+    <string name="reset_filter">Reset Filter</string>
+    <string name="sel_merchant">SELECT MERCHANT</string>
+    <string name="Qty_alert">Please add Product</string>
+    <string name="outlet_detail_alert">Outlet Detail not found</string>
+    <string name="outlet_alert">No Outlet for this location</string>
+    <string name="please_signin">please signin</string>
+
+
+    <string name="P0101">Out of Stock</string>
+    <string name="P0102">You already participate</string>
+    <string name="P0103">Promo code wrong</string>
+    <string name="P0104">Prmotion date mismatch</string>
+    <string name="P0105">Coupon available</string>
+    <string name="P0106">Coupon not available</string>
+    <string name="P0107">Merchant Code Wrong</string>
+
+    <string name="offer_alert">Please signin to get the offer</string>
+    <string name="whats_new">What\&apos;s New</string>
+    <string name="user_guide">User Guide</string>
+    <string name="register">Please Signup to continue</string>
+    <string name="guest_login">Guest Login</string>
+
+
+    <string name="editname">Edit Name</string>
+    <string name="editmobile">Edit Mobile No.</string>
+    <string name="editcourtry">Edit Country</string>
+    <string name="letstart">
+
+
+Last Updated: 31 March 2015\n\n
+
+This Terms &amp; Conditions describes how Walnet (‘we’) handles your personal information.\n\n
+
+This includes the information that Walnet collects from you when you sign up for, use, access or otherwise interact with any Walnet applications, products, services, or on websites or other media such as Apps (collectively, “Services”), how we use and share that information, including information we may obtain from other sources, and the choices we offer.\n\n
+
+This Terms &amp; Conditions Sets out the following:\n\n
+
+•Collection of Information\n\n
+
+•Third Party Advertising and Analytics\n\n
+
+•Use of Information\n\n
+
+•Sharing of Information\n\n
+
+•Security\n\n
+
+•Your Choices\n\n
+
+This policy applies to all information we collect through our Services, even if you have not signed up for a Walnet account or downloaded one of our applications. This policy does not, however, describe the practices of third parties that may collect information from you when you interact with them, including Merchants that use Walnet to accept payment for goods or services (“Merchants”). We encourage you to ask them about their privacy practices before providing any information to them.\n\n
+
+We may change this policy from time to time. If we make changes, we will notify you by posting the updated policy and revising the “Last Updated” date above. We encourage you to review the policy whenever you use our Services to stay informed about our information practices and about the choices available to you.\n\n
+
+Collection of Information\n\n
+
+Information You Provide\n\n
+
+We collect information you provide, such as when you sign up for a Walnet Merchant, when you provide information as part of our identity verification process, in the course of a transaction, or when you request a digital receipt. We may collect, but are not limited to collecting, the following: basic user information, such as your name, email address, mailing address, phone number, photograph, and birth date; financial information, including bank account and payment card numbers; and other historical, contact, and demographic information.\n\n
+
+We also collect information when you upload or send information to or through the Services about your products and services (including inventory, pricing and other data), participate in contests or promotions offered by Walnet or our partners, respond to our surveys, or otherwise communicate with us.\n\n
+
+Information We Collect from Your Use of the Services\n\n
+
+We collect information about you when you use our Services, including as follows:\n\n
+
+Transaction Information. When you use our Services to make or accept payments or money transfers, we collect information about when and where the transactions occurred, a description of the transactions, the payment or transfer amounts, billing and shipping information, and information about the devices and payment methods used to complete the transactions.
+Location Information. When one of our applications is open on your mobile device, we periodically receive information about the location of the device. We may also collect location information about your device if you are near a Merchant with whom you have auto check-in enabled. For more information and to learn how to disable location information, please see “Your Choices” below.
+Device Information. We collect device-specific information when you access our Services, including your hardware model, operating system and version, unique device identifiers, mobile network information, and information about the device’s interaction with our Services. We may also identify other software running on the device (but will not collect any content from such software) for anti-fraud and malware-prevention purposes.
+Usage Information. We collect information about how you use our Services, including your access times, browser types and language, and Internet Protocol (“IP”) addresses.
+Information Collected by Cookies and Web Beacons. We use various technologies to collect information, and this may include sending cookies to your computer or mobile device. Cookies are small data files that are stored on your hard drive or in device memory by a website. Among other things, cookies support the integrity of our registration process, retain your preferences and account settings, and help evaluate and compile aggregated statistics about user activity. We may also collect information using web beacons. Web beacons are electronic images that may be used in our Services or emails. We may use web beacons to deliver cookies, count visits, understand usage and campaign effectiveness, and determine whether an email has been opened and acted upon.
+Information We Collect From Other Sources\n\n
+
+We may also collect information about you from third parties, including but not limited to third-party verification services, credit bureaus, mailing list providers, and publicly available sources. In some circumstances, depending on the nature of services available in a particular country, this information may include your Social Security or taxpayer identification number.\n\n
+
+Third-Party Advertising and Analytics\n\n
+
+We may allow third parties to serve advertisements in connection with our Services and to provide analytics services. These third parties may use cookies, web beacons, and other technologies to collect information, such as your IP addresses, identifiers associated with your mobile device or applications on the device, the browsers you use to visit our Services, pages viewed, time spent on pages, links clicked, and conversion information. This information may be used by Walnet and other companies to analyse and track data, determine the popularity of certain content, deliver advertising and content targeted to your interests, and better understand your usage. This policy does not apply to, and we are not responsible for, third-party cookies, web beacons, or other tracking technologies, and we encourage you to check the privacy policies of these third parties to learn more about their privacy practices. For more information about targeted advertising specifically, or to opt out of having your browser information used for these purposes, please visit www.aboutads.info/choices.\n\n
+
+Use of Information\n\n
+
+We use information about you to provide, maintain, and improve our Services and to deliver the information and support you request, including receipts, technical notices, security alerts, and support and administrative messages.\n\n
+
+We also use information about you to improve and personalize the Services. To take just one example, when you sign up for a Walnet account, we may associate certain information with your new account, such as information about other accounts you have or had with Walnet and prior transactions you made through the Walnet Services.\n\n
+
+We may use information we collect to send you news and information about our Services and to communicate with you about products, services, contests, promotions, incentives, and rewards offered by us and select partners.\n\n
+
+We may also use information about you to track and analyse trends and usage in connection with our Services; to process and deliver contest and promotion entries and rewards; to protect our rights or property; to verify your identity; to investigate and prevent fraud or other illegal activities; and for any other purpose disclosed to you in connection with our Services.\n\n
+
+We may, or we may use third-party service providers to, process and store personal information in the Singapore and other countries around the world and you agree to this transfer, storing and processing.\n\n
+
+Digital Receipts\n\n
+
+If you choose to receive receipts via email or text message, we store the email address or phone number you provide. We use your email address or phone number to send you a receipt for your purchase and to automatically send you digital receipts for future purchases you make from other Merchants. Digital receipts may contain additional messages, offers, or links that may be of interest to you. For example, you may be able to submit feedback, share your experience on social media, view your purchase history, join programs, visit websites, or take advantage of promotions. When you submit or share information through a receipt (such as submitting feedback), we may share that information with Merchants and you may receive responses. As mentioned above, this policy does not describe the practices of Merchants that may receive or collect information from you. We encourage you to ask them about their privacy practices before providing any information to them. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in the “Your Choices” section of this policy.\n\n
+
+Sharing of Information\n\n
+
+We may share personal information about you as follows:\n\n
+
+With third parties to provide, maintain, and improve our Services, including service providers who access information about you to perform services on our behalf (e.g., fraud prevention and verification services), and including financial institutions, processors, payment card associations, and other entities that are part of the payment or transfer process;
+With others who have signed up for Walnet accounts in order to provide our Services. For example, we may share information when you make or accept a payment or transfer using our Services. We may also share information about you when you are located near a Walnet Merchant with whom you have auto check-in enabled;
+With third parties that run advertising campaigns, contests, special offers, or other events or activities in connection with our Services;
+In connection with, or during the negotiation of, any merger, sale of company stock or assets, financing, acquisition, divestiture, or dissolution of all or a portion of our business;
+If we believe that disclosure is reasonably necessary to comply with any applicable law, regulation, legal process, or governmental request; to enforce applicable agreements or policies; to protect the security or integrity of our Services; and to protect us, our Merchants, end users, or the public from harm or illegal activities; and
+With your consent.
+We may also share aggregated, non-personally identifiable information with third parties.\n\n
+
+Security\n\n
+
+We take reasonable measures, including administrative, technical, and physical safeguards, to help protect personal information from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction. We hold personal information at our own premises and with the assistance of our service providers.\n\n
+
+Your Choices\n\n
+
+Location Information\n\n
+
+When you first launch our mobile applications, you will be asked to consent to the application’s collection of location information. We currently require this location information in order to provide our Services, so if you do not consent to this collection, you cannot use our Services. If you initially consent to our collection of location information, you can subsequently stop our collection of location information at any time by changing the preferences on your mobile device. If you do so, the Walnet application will no longer function. You may also stop our collection of location information by following the standard uninstall process to remove Walnet applications from your device.\n\n
+
+Cookies\n\n
+
+When you use the Services, we try to make your experience simple and meaningful. When you access or use the Services, our web server sends a cookie to your computer or mobile device (as the case may be). Cookies are small pieces of information that are issued to your computer or mobile device (as the case may be) when you visit a website or access or use a mobile application, and which store and sometimes track information about your use of the Services. Certain cookies we use last only for the duration of your web or application session and expire when you close your browser or exit the application. Other cookies are used to remember you when you return to use the Services and, as such, will last longer.\n\n
+
+We use cookies to:\n\n
+
+remember that you have visited us or used the Services before. This means we can identify the number of unique visitors we receive, which allows us to make sure we have enough capacity to accommodate all of our users;
+customise elements of the promotional layout and/or content of our website or application; and
+collect anonymous statistical information about how you use the Services (including the length of your web or application session) and the location from which you access the Services, so that we can improve the Services and learn which elements and functions of the Services are most popular with our users.
+Some of the cookies used in the Services are set by us, and others are set by third parties who deliver services on our behalf.\n\n
+
+Most web and mobile device browsers are set to automatically accept cookies by default. However, you can change your browser settings to prevent automatic acceptance of cookies, or to notify you each time a cookie is set. You also can learn more about cookies by visiting www.allaboutcookies.org, which includes additional useful information on cookies and how to block cookies on different types of browsers and mobile devices. Please note, however, that by blocking or deleting cookies used in the Services, you may not be able to take full advantage of the Services.\n\n
+
+Preferences\n\n
+
+Personal Information. You may change or correct information about yourself by logging into your Walnet account at any time or by emailing us at hello@Walnet.com. You may also email us if you wish to deactivate your account. We may retain archived copies of information about you and your transactions for a period of time that is consistent with applicable law.
+Digital Receipts. If at any time you wish to opt out of receiving automatic digital receipts or change your preferences, you may do so by following the instructions in your digital receipt.
+Promotional Communications. You may opt out of receiving promotional emails or text messages from Walnet by following the instructions in those emails or text messages. If you opt out, we may still send you non-promotional communications, such as digital receipts and messages about your account or our ongoing business relations.\n\n
+ </string>
+
+
+    <string name="MerchantId">MerchantId</string>
+    <string name="credencial_Key">Credencial Key</string>
+    <string name="credencial_Secret">Credencial Secret</string>
+    <string name="reset_credencial">Reset Credencial</string>
+
+</resources>
