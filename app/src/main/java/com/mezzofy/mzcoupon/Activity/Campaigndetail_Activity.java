@@ -270,12 +270,12 @@ public class Campaigndetail_Activity extends Activity implements OnClickListener
                 if (campaignData.getOrginalPrice() > 0)
                     redpricetext.setText(getString(R.string.Original_Price) + " " + "IDR" + campaignData.getOrginalPrice());
                 else
-                    redpricetext.setVisibility(View.GONE);
+                    redpricetext.setText("");
 
                 if (campaignData.getSellingPrice() > 0)
                     selpricetext.setText(getString(R.string.Now) + " " +  "IDR" + campaignData.getSellingPrice());
                 else
-                    selpricetext.setVisibility(View.GONE);
+                    selpricetext.setText("");
 
 
             }
@@ -306,7 +306,7 @@ public class Campaigndetail_Activity extends Activity implements OnClickListener
                 @Override
                 public void onClick(View v) {
                     // TODO Auto-generated method stub
-                    if (staffRes!=null && !staffRes.getCustomerStatus().equals("G") && staffRes.getUserType().equals("C")) {
+                    if (staffRes!=null && !staffRes.getCustomerStatus().equals("G") && staffRes.getUserType().equals("C") && campaignData.getBrand()!=null && !campaignData.getBrand().equals("F")) {
 
                         int stockQty =campaignModule.checkproduct(campaignData.getCampaignId(), i);
 
@@ -319,7 +319,7 @@ public class Campaigndetail_Activity extends Activity implements OnClickListener
                             cartData.setProductQty(String.valueOf(i));
                             cartData.setSellingPrice(String.valueOf(productRes.getCampaign().getSellingPrice()));
                             cartData.setOrginalPrice(String.valueOf(productRes.getCampaign().getOrginalPrice()));
-                            cartData.setTotalPrice(String.valueOf(prod_val));
+                            cartData.setTotalPrice(prod_val);
                             cartData.setCampaignTc(productRes.getCampaign().getCampaignTc());
                             cartData.setCampaignCode(productRes.getCampaign().getCampaignCode());
                             cartData.setStatus("A");

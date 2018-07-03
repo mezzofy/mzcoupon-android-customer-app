@@ -304,7 +304,7 @@ public class CartActivity extends Fragment implements OnClickListener {
                     transd.setProdName(res.getCampaignName());
                     transd.setProdPrice(Double.parseDouble(res.getOrginalPrice()));
                     transd.setProdQty(Double.valueOf(res.getProductQty()));
-                    transd.setProdTotal(Double.parseDouble(res.getTotalPrice()));
+                    transd.setProdTotal(Double.valueOf(res.getTotalPrice()));
                     transdtls.add(transd);
                 }
 

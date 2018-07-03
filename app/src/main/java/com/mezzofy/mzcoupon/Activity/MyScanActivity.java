@@ -712,9 +712,7 @@ public class MyScanActivity extends Activity implements AdapterView.OnItemClickL
         super.onBackPressed();
         Intent intent = new Intent(getApplicationContext(), TabViewActivtiy.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtra("tabName", "");
-        intent.putExtra("currTab", 3);
-
+        intent.putExtra("tabName", "cart");
         startActivity(intent);
         overridePendingTransition(0, 0);
         MyScanActivity.this.finish();

@@ -79,8 +79,8 @@ public class CouponRedeemList_Activity extends Fragment implements
     private SwipyRefreshLayout mSwipyRefreshLayout;
 
     ArrayList<CouponRes> CouponList = null;
-    List<CustomerCouponmEntity> RedeemCouponList = null;
-    List<CustomerCouponmEntity> Redeemcoupon;
+    List<CustomerCouponmEntity> RedeemCouponList = new ArrayList<CustomerCouponmEntity>();
+    List<CustomerCouponmEntity> Redeemcoupon=new ArrayList<CustomerCouponmEntity>();
 
 
 

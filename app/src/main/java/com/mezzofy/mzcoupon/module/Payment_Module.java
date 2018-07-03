@@ -74,9 +74,7 @@ public class Payment_Module {
             PomData pomData=(PomData) JsonMapper.mapJsonToObj(pomEntity, PomData.class);
             PoData poData=paymentModule.RequestChargeCoupons(pomData);
             if(poData!=null) {
-                PomEntity pomEntity1 = (PomEntity) JsonMapper.mapJsonToObj(poData, PomEntity.class);
-                if (pomEntity1 != null)
-                    resp=pomEntity1.getPo();
+                resp = (PoEntity) JsonMapper.mapJsonToObj(poData, PoEntity.class);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -95,9 +93,7 @@ public class Payment_Module {
             PomData pomData=(PomData) JsonMapper.mapJsonToObj(pomEntity, PomData.class);
             PoData poData=paymentModule.RequestFreeCoupon(pomData);
             if(poData!=null) {
-                PomEntity pomEntity1 = (PomEntity) JsonMapper.mapJsonToObj(poData, PomEntity.class);
-                if (pomEntity1 != null)
-                    resp=pomEntity1.getPo();
+                resp = (PoEntity) JsonMapper.mapJsonToObj(poData, PoEntity.class);
             }
         } catch (IOException e) {
             e.printStackTrace();

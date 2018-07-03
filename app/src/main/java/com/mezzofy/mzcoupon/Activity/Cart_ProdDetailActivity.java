@@ -43,6 +43,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.text.DecimalFormat;
 
 public class Cart_ProdDetailActivity extends Activity implements OnClickListener {
 
@@ -116,16 +117,25 @@ public class Cart_ProdDetailActivity extends Activity implements OnClickListener
             proddesctext.setMovementMethod(new ScrollingMovementMethod());
             proddesctext.setTypeface(regular, Typeface.NORMAL);
 
+            DecimalFormat df = new DecimalFormat("#.##");
+
             if (settings.getString("decimal", "N").equals("Y")) {
 
+
                 if (campaignData.getOrginalPrice() != 0.00) {
-                    redpricetext.setText(getString(R.string.Original_Price) + " " + settings.getString("currency", "IDR") + String.format("%,.2f", campaignData.getOrginalPrice()));
+
+
+                    String formatted = df.format(campaignData.getOrginalPrice());
+//                    redpricetext.setText(getString(R.string.Original_Price) + " " + settings.getString("currency", "IDR") + String.format("%,.2f", campaignData.getOrginalPrice()));
+                    redpricetext.setText(getString(R.string.Original_Price) + " " + settings.getString("currency", "IDR") + formatted);
                     redpricetext.setPaintFlags(redpricetext.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                 }
                 selpricetext.setText(getString(R.string.Now) + " " + settings.getString("currency", "IDR") + String.format("%,.2f", campaignData.getSellingPrice()));
             } else {
                 if (campaignData.getOrginalPrice() != 0.00) {
-                    redpricetext.setText(getString(R.string.Original_Price) + " " + settings.getString("currency", "IDR") + String.format("%,.0f", campaignData.getOrginalPrice()));
+                    String formatted = df.format(campaignData.getOrginalPrice());
+//                    redpricetext.setText(getString(R.string.Original_Price) + " " + settings.getString("currency", "IDR") + String.format("%,.0f", campaignData.getOrginalPrice()));
+                    redpricetext.setText(getString(R.string.Original_Price) + " " + settings.getString("currency", "IDR") + formatted);
                     redpricetext.setPaintFlags(redpricetext.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                 }
                 selpricetext.setText(getString(R.string.Now) + " " + settings.getString("currency", "IDR") + String.format("%,.0f", campaignData.getSellingPrice()));

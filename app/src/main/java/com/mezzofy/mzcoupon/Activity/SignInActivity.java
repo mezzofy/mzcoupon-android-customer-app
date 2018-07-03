@@ -242,7 +242,7 @@ public class SignInActivity extends GCM_Register implements OnClickListener{
 
                                                 CustomermEntity staffRes= null;
                                                 try {
-                                                    staffRes = userModule.getfblogin(customerDeviceModel);
+                                                    staffRes = userModule.getlogin(customerDeviceModel);
                                                 } catch (APIServerException e) {
                                                     CommonUtils.Snackbar(Uemail, e.getMessage());
                                                     return;

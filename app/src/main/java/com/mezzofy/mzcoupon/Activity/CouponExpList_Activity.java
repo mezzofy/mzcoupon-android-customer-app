@@ -55,6 +55,7 @@ import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutD
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -83,8 +84,8 @@ public class CouponExpList_Activity extends Fragment implements
     private Campaign_Module productModule;
 
 
-    List<CustomerCouponmEntity> ExpCouponList = null;
-    List<CustomerCouponmEntity> TempCouponList = null;
+    List<CustomerCouponmEntity> ExpCouponList = new ArrayList<CustomerCouponmEntity>();
+    List<CustomerCouponmEntity> TempCouponList = new ArrayList<CustomerCouponmEntity>();
     List<CustomerCouponmEntity> transexpcouponList;
 
     int Pages = 1,limit=0;

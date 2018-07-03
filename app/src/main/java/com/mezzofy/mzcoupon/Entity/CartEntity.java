@@ -29,7 +29,7 @@ public class CartEntity {
     @Column(name = "campaignImage")
     private String campaignImage;
     @Column(name = "totalPrice")
-    private String totalPrice;
+    private Float totalPrice;
     @Column(name = "status")
     private String status;
     @Column(name = "flag")
@@ -115,11 +115,11 @@ public class CartEntity {
         this.campaignImage = campaignImage;
     }
 
-    public String getTotalPrice() {
+    public Float getTotalPrice() {
         return totalPrice;
     }
 
-    public void setTotalPrice(String totalPrice) {
+    public void setTotalPrice(Float totalPrice) {
         this.totalPrice = totalPrice;
     }
 

@@ -597,7 +597,7 @@ public class MojodomoDB {
                 "reviewUrl TEXT," +
                 "productQty TEXT," +
                 "campaignImage TEXT,"+
-                "totalPrice TEXT," +
+                "totalPrice Double," +
                 "status TEXT," +
                 "flag TEXT" +
                 ")";
