@@ -38,11 +38,9 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.gson.Gson;
-import com.handmark.pulltorefresh.library.PullToRefreshBase;
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.mezzofy.mzcoupon.Adapter.MercouponAdapter;
 import com.mezzofy.mzcoupon.Entity.CampaignEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Entity.SizemEnity;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.Entity.CustomerCouponmEntity;
@@ -600,7 +598,7 @@ public class MyCouponCampaignList_Activity extends Fragment implements
             public void onClick(DialogInterface dialog, int id) {
                 dialog.cancel();
 
-                MojodomoDB dbHelper = new MojodomoDB(getContext());
+                CouponDB dbHelper = new CouponDB(getContext());
                 dbHelper.clearTables();
 
                 Intent intent = new Intent(getContext(), SignInActivity.class);

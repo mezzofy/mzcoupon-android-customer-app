@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/libraryrefresh/build/intermediates/res/merged/release/drawable-mdpi-v4/indicator_arrow.png",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/libraryrefresh/src/main/res/drawable-mdpi/indicator_arrow.png"
+    },
+    {
         "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/libraryrefresh/build/intermediates/res/merged/release/drawable-mdpi-v4/default_ptr_rotate.png",
         "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/libraryrefresh/src/main/res/drawable-mdpi/default_ptr_rotate.png"
     },
@@ -10,5 +14,13 @@
     {
         "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/libraryrefresh/build/intermediates/res/merged/release/drawable-mdpi-v4/default_ptr_flip.png",
         "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/libraryrefresh/src/main/res/drawable-mdpi/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/libraryrefresh/build/intermediates/res/merged/release/drawable-mdpi-v4/default_ptr_flip.png",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/libraryrefresh/src/main/res/drawable-mdpi/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/libraryrefresh/build/intermediates/res/merged/release/drawable-mdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/libraryrefresh/src/main/res/drawable-mdpi/default_ptr_rotate.png"
     }
 ]

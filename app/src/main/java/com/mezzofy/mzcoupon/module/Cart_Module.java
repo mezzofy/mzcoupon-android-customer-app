@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.mezzofy.mzcoupon.Entity.CartEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Cart_Dao;
 
 import java.sql.Connection;
@@ -19,11 +19,11 @@ import java.util.List;
 
 public class Cart_Module {
 
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     SharedPreferences settings;
 
     public Cart_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         settings = PreferenceManager.getDefaultSharedPreferences(context);
     }
 

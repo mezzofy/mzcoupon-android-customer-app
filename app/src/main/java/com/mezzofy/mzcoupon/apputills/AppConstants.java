@@ -7,7 +7,6 @@ public class AppConstants {
 
         private static String Urlpath="http://getso.mezzofy.com/";
 
-    //private static String urlpath = "http://getso.mezzofy.com.mezzofy.mojodomo.4/ws/v1/";
 
     public static final String path4 = "mQ/SbTG3DeoZHBNOnP6BPomIRaxdOPwmPgN8ULmfIQg=";
     public static final String path5 = "mQ/SbTG3DeoZHBNOnP6BPomIRaxdOPwmcUpfgO2sgn4=";

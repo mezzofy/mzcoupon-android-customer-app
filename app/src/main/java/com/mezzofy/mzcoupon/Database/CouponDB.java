@@ -29,13 +29,13 @@ import java.sql.SQLException;
  * Created by aruna on 7/26/17.
  */
 
-public class MojodomoDB {
+public class CouponDB {
     private static final int DATABASE_VERSION = 1;
 
     static final String JDBC_DRIVER = "org.sqldroid.SQLDroidDriver";
 
     // Database Name
-    private static final String DATABASE_NAME = "mojodomoDb";
+    private static final String DATABASE_NAME = "CouponDb";
 
     //MZCustomer Name
     private static final String TABLE_CUSTOMER = "tbl_customer";
@@ -94,7 +94,7 @@ public class MojodomoDB {
     private static SQLDroidConnection con;
     private static int count;
 
-    public MojodomoDB(Context context) {
+    public CouponDB(Context context) {
 
         this.mcontext = context;
         if (mDBHelper == null) {

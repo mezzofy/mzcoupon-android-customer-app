@@ -13,7 +13,7 @@ import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
 import com.mezzofy.MzCouponAPI.module.MZWalletTransaction;
 import com.mezzofy.MzCouponAPI.utills.APIServerException;
 import com.mezzofy.mzcoupon.Entity.WalletTxnEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.WalletTransaction_Dao;
 import com.mezzofy.mzcoupon.apputills.ObjectSerializer;
 import com.mezzofy.mzcoupon.Entity.SizemEnity;
@@ -37,13 +37,13 @@ import java.util.List;
  */
 
 public class WalletTranscation_Module {
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     SharedPreferences settings;
     Gson gson = new Gson();
     private MZWalletTransaction walletTransactionModule;
 
     public WalletTranscation_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         settings = PreferenceManager.getDefaultSharedPreferences(context);
         walletTransactionModule = new MZWalletTransaction(context);
     }

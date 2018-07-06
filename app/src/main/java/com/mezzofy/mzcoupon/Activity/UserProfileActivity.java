@@ -32,7 +32,7 @@
 //import java.util.Calendar;
 //import java.util.Locale;
 //
-//import com.mezzofy.mojodomo.Utils.DetectConnection;
+
 //
 ///**
 // * Created by LENOVO on 05/08/2015.

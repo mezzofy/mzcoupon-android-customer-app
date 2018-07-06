@@ -9,7 +9,7 @@ import com.mezzofy.MzCouponAPI.module.MZCouponOrder;
 import com.mezzofy.MzCouponAPI.utills.APIServerException;
 
 import com.mezzofy.mzcoupon.Entity.OrderEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.CouponOrder_Dao;
 
 import com.mezzofy.mzcoupon.Entity.OrderItemmEntity;
@@ -35,11 +35,11 @@ import java.util.List;
 public class CouponOrder_Module {
 
     private JSONObject jsonobj =null;
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     private MZCouponOrder couponOrderModule;
 
     public CouponOrder_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         couponOrderModule=new MZCouponOrder(context);
     }
 

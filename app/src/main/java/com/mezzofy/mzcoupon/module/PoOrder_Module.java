@@ -8,7 +8,7 @@ import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
 import com.mezzofy.MzCouponAPI.module.MZPoOrder;
 import com.mezzofy.mzcoupon.Entity.PoEntity;
 import com.mezzofy.mzcoupon.Entity.PoDetailEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.PoOrder_Dao;
 import com.mezzofy.mzcoupon.Entity.PoDetailmEntity;
 import com.mezzofy.mzcoupon.Entity.PoListmEntity;
@@ -27,11 +27,11 @@ import java.util.List;
  */
 
 public class PoOrder_Module {
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     private MZPoOrder poOrderModule;
 
     public PoOrder_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         poOrderModule=new MZPoOrder(context);
     }
 

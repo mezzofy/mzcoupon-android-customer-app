@@ -6,7 +6,7 @@ import com.mezzofy.MzCouponAPI.data.MerchantDataModel;
 import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
 import com.mezzofy.MzCouponAPI.module.MZMerchant;
 import com.mezzofy.mzcoupon.Entity.MerchantEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Merchant_Dao;
 import com.mezzofy.mzcoupon.Entity.MerchantmEntity;
 
@@ -20,12 +20,12 @@ import java.sql.SQLException;
 
 
 public class Merchant_Module {
-	private MojodomoDB dbhelper;
+	private CouponDB dbhelper;
 	private MZMerchant merchantModule;
 
 
 	public Merchant_Module(Context context) {
-		dbhelper = new MojodomoDB(context);
+		dbhelper = new CouponDB(context);
 		merchantModule=new MZMerchant(context);
 	}
 

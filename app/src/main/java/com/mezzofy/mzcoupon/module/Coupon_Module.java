@@ -9,8 +9,6 @@ import com.mezzofy.MzCouponAPI.data.CustomerCouponDataModel;
 import com.mezzofy.MzCouponAPI.data.GiftcouponDataModel;
 import com.mezzofy.MzCouponAPI.data.MassCouponDataModel;
 import com.mezzofy.MzCouponAPI.data.SiteDataModel;
-import com.mezzofy.MzCouponAPI.data.SizeDataModel;
-import com.mezzofy.MzCouponAPI.data.StockData;
 import com.mezzofy.MzCouponAPI.data.StockDataModel;
 import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
 import com.mezzofy.MzCouponAPI.module.MZCoupon;
@@ -18,7 +16,7 @@ import com.mezzofy.MzCouponAPI.module.MZCoupon;
 import com.mezzofy.MzCouponAPI.utills.APIServerException;
 import com.mezzofy.mzcoupon.Entity.CouponEntity;
 
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Coupon_Dao;
 
 import com.mezzofy.mzcoupon.Entity.CustomerCouponListmEntity;
@@ -27,8 +25,6 @@ import com.mezzofy.mzcoupon.Entity.GiftcouponmEntity;
 import com.mezzofy.mzcoupon.Entity.MassCouponmEntity;
 import com.mezzofy.mzcoupon.Entity.SitemEnity;
 import com.mezzofy.mzcoupon.Entity.SizemEnity;
-import com.mezzofy.mzcoupon.Entity.StockEntity;
-import com.mezzofy.mzcoupon.Entity.StockmEntity;
 import com.mezzofy.mzcoupon.apputills.ObjectSerializer;
 
 import org.json.JSONException;
@@ -49,12 +45,12 @@ import java.util.List;
 
 public class Coupon_Module {
 
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     SharedPreferences settings;
     MZCoupon couponModule;
 
     public Coupon_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         couponModule = new MZCoupon(context);
         settings = PreferenceManager.getDefaultSharedPreferences(context);
     }

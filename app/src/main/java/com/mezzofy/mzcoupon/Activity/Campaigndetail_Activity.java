@@ -32,7 +32,7 @@ import com.mezzofy.mzcoupon.Entity.CartEntity;
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.Entity.PoEntity;
 import com.mezzofy.mzcoupon.Entity.PoDetailEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.Entity.CampaignmEntity;
 import com.mezzofy.mzcoupon.Entity.PoDetailmEntity;
@@ -775,7 +775,7 @@ public class Campaigndetail_Activity extends Activity implements OnClickListener
             public void onClick(DialogInterface dialog, int id) {
                 dialog.cancel();
 
-                MojodomoDB dbHelper = new MojodomoDB(getApplicationContext());
+                CouponDB dbHelper = new CouponDB(getApplicationContext());
                 dbHelper.clearTables();
 
                 Intent intent = new Intent(Campaigndetail_Activity.this, SignInActivity.class);

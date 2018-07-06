@@ -29,7 +29,7 @@ import com.facebook.login.LoginManager;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.apputills.Item;
 import com.mezzofy.mzcoupon.module.Customer_Module;
@@ -293,7 +293,7 @@ public class SettingActivity extends Fragment implements OnClickListener {
 //                    CustomerRes res = userModule.logout(userres.getCustomer_id(), registrationId);
 //                }
 
-                MojodomoDB dbHelper = new MojodomoDB(getActivity().getApplicationContext());
+                CouponDB dbHelper = new CouponDB(getActivity().getApplicationContext());
                 dbHelper.clearTables();
 
                 SharedPreferences.Editor editor = settings.edit();
@@ -331,7 +331,7 @@ public class SettingActivity extends Fragment implements OnClickListener {
             public void onClick(DialogInterface dialog, int id) {
                 dialog.cancel();
 
-                MojodomoDB dbHelper = new MojodomoDB(getActivity().getApplicationContext());
+                CouponDB dbHelper = new CouponDB(getActivity().getApplicationContext());
                 dbHelper.clearTables();
 
                 Intent intent = new Intent(getActivity(), SignInActivity.class);
@@ -355,7 +355,7 @@ public class SettingActivity extends Fragment implements OnClickListener {
 
        final String mystring = "This is an awesome app for MZCoupon.\n\n Download now";
        BranchUniversalObject branchUniversalObject = new BranchUniversalObject()
-               .setCanonicalIdentifier("mojodomo://post?staffid=" + staffid)
+               .setCanonicalIdentifier("coupon://post?staffid=" + staffid)
                .setTitle("MZCoupon")
                .setContentDescription(mystring)
                .setContentImageUrl("https://s3-ap-southeast-1.amazonaws.com/stgpromzgetso/logo/thumnail.png").setContentIndexingMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC);

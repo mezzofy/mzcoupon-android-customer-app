@@ -417,7 +417,7 @@ public class MyScanActivity extends Activity implements AdapterView.OnItemClickL
 //                // Otherwise, set the URL to null.
 //                Uri.parse("http://host/path"),
 //                // TODO: Make sure this auto-generated app deep link URI is correct.
-//                Uri.parse("android-app://com.mezzofy.mojodomo.mojo/http/host/path")
+//                Uri.parse("android-app://com.mezzofy.coupon.mojo/http/host/path")
 //        );
 //        AppIndex.AppIndexApi.start(client, viewAction);
     }
@@ -436,7 +436,7 @@ public class MyScanActivity extends Activity implements AdapterView.OnItemClickL
 //                // Otherwise, set the URL to null.
 //                Uri.parse("http://host/path"),
 //                // TODO: Make sure this auto-generated app deep link URI is correct.
-//                Uri.parse("android-app://com.mezzofy.mojodomo.mojo/http/host/path")
+//                Uri.parse("android-app://com.mezzofy.coupon.mojo/http/host/path")
 //        );
 //        AppIndex.AppIndexApi.end(client, viewAction);
 //        client.disconnect();

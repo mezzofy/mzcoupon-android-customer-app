@@ -31,8 +31,7 @@
 //import java.util.ArrayList;
 //import java.util.Calendar;
 //
-//import com.mezzofy.mojodomo.Utils.DetectConnection;
-//import com.mezzofy.mojodomo.Utils.GCM_Register;
+
 //
 ///**
 // * Created by LENOVO on 14/08/2015.

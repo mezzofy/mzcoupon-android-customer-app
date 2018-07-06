@@ -12,7 +12,7 @@ import com.mezzofy.MzCouponAPI.utills.APIServerException;
 
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 
 import com.mezzofy.mzcoupon.Dao.Customer_Dao;
 import com.mezzofy.mzcoupon.Entity.CountryList;
@@ -33,11 +33,11 @@ import java.util.ArrayList;
 public class Customer_Module {
 
    private MZCustomer customerModule;
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
 
 
     public Customer_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         customerModule=new MZCustomer(context);
     }
 

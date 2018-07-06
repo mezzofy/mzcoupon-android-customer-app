@@ -9,7 +9,7 @@ import com.mezzofy.MzCouponAPI.data.WalletDataModel;
 import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
 import com.mezzofy.MzCouponAPI.module.MZWallet;
 import com.mezzofy.mzcoupon.Entity.WalletEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Wallet_Dao;
 
 import com.mezzofy.mzcoupon.Entity.WalletmEntity;
@@ -28,12 +28,12 @@ import java.sql.SQLException;
 
 public class Wallet_Module {
 
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     SharedPreferences settings;
     private MZWallet walletModule;
 
     public Wallet_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         settings = PreferenceManager.getDefaultSharedPreferences(context);
         walletModule=new MZWallet(context);
     }

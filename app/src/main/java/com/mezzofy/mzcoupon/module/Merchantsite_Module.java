@@ -9,7 +9,7 @@ import com.mezzofy.MzCouponAPI.data.SiteDataModel;
 import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
 import com.mezzofy.MzCouponAPI.module.MZSite;
 import com.mezzofy.mzcoupon.Entity.SiteEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.MerchantSite_Dao;
 import com.mezzofy.mzcoupon.Entity.SitemEnity;
 
@@ -26,11 +26,11 @@ import java.util.List;
 public class Merchantsite_Module {
     Gson gson = new Gson();
 
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     private MZSite sitemodule;
 
     public Merchantsite_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         sitemodule = new MZSite(context);
     }
 

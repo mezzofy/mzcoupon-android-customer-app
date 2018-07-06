@@ -2,7 +2,7 @@ package com.mezzofy.mzcoupon.module;
 
 import android.content.Context;
 
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Setting_Dao;
 
 import java.sql.Connection;
@@ -13,10 +13,10 @@ import java.sql.SQLException;
  */
 
 public class Setting_Module {
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
 
     public Setting_Module(Context pcontext) {
-        dbhelper = new MojodomoDB(pcontext);
+        dbhelper = new CouponDB(pcontext);
     }
 
     public String getSettings(String settingId) throws Exception {

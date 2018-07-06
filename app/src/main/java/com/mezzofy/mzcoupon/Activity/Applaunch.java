@@ -64,7 +64,7 @@ public class Applaunch extends Application {
 
         Branch branch = Branch.getInstance(getApplicationContext());
 
-        EstimoteSDK.initialize(getApplicationContext(), "com.mezzofy.mojodomo.getso-lka", "864532236c372ef1be9117cc5f4ab53b");
+        EstimoteSDK.initialize(getApplicationContext(), "com.mezzofy.coupon.getso-lka", "864532236c372ef1be9117cc5f4ab53b");
 
         beaconManager = new BeaconManager(getApplicationContext());
         region = new Region("ranged region", UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), null, null);

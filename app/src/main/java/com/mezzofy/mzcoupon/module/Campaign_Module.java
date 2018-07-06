@@ -15,7 +15,7 @@ import com.mezzofy.mzcoupon.Entity.CampGrpDetailEntity;
 import com.mezzofy.mzcoupon.Entity.CampGrpEntity;
 import com.mezzofy.mzcoupon.Entity.CampaignEntity;
 import com.mezzofy.mzcoupon.Entity.CampaignsEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.apputills.ObjectSerializer;
 import com.mezzofy.mzcoupon.Dao.Campaign_Dao;
 import com.mezzofy.mzcoupon.Entity.CampaignGroupDtlmEntity;
@@ -41,12 +41,12 @@ import java.util.List;
  */
 
 public class Campaign_Module {
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
     SharedPreferences settings;
     MZCampaign campaignModule;
 
     public Campaign_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         settings = PreferenceManager.getDefaultSharedPreferences(context);
         campaignModule = new MZCampaign(context);
     }

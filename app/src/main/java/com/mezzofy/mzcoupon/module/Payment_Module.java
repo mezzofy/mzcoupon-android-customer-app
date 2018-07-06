@@ -2,7 +2,6 @@ package com.mezzofy.mzcoupon.module;
 
 import android.content.Context;
 
-import com.mezzofy.MzCouponAPI.data.PaymentDetailDataModel;
 import com.mezzofy.MzCouponAPI.data.PaymentListDataModel;
 import com.mezzofy.MzCouponAPI.data.PoData;
 import com.mezzofy.MzCouponAPI.data.PomData;
@@ -13,7 +12,7 @@ import com.mezzofy.MzCouponAPI.utills.APIServerException;
 import com.mezzofy.mzcoupon.Entity.PaymentEntity;
 import com.mezzofy.mzcoupon.Entity.PaymentDetailEntity;
 import com.mezzofy.mzcoupon.Entity.PoEntity;
-import com.mezzofy.mzcoupon.Database.MojodomoDB;
+import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Payment_Dao;
 
 import com.mezzofy.mzcoupon.Entity.PaymentDetailmEntity;
@@ -39,11 +38,11 @@ import java.util.List;
 public class Payment_Module {
 
    private MZPayment paymentModule;
-    private MojodomoDB dbhelper;
+    private CouponDB dbhelper;
 
 
     public Payment_Module(Context context) {
-        dbhelper = new MojodomoDB(context);
+        dbhelper = new CouponDB(context);
         paymentModule=new MZPayment(context);
     }
 
