@@ -8,7 +8,7 @@
 
     <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         app:direction="both">
@@ -58,9 +58,9 @@
         android:id="@+id/fabbutton"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:layout_alignEnd="@+id/listviewgroup"
+        android:layout_alignEnd="@+id/swipyrefreshlayout"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/listviewgroup"
+        android:layout_alignRight="@+id/swipyrefreshlayout"
         android:layout_gravity="bottom|end"
         android:visibility="visible" />
 

@@ -31,6 +31,7 @@ import com.mezzofy.mzcoupon.Entity.MassCouponmEntity;
 import com.mezzofy.mzcoupon.module.Campaign_Module;
 import com.mezzofy.mzcoupon.module.MassRedeem_Module;
 import com.mezzofy.mzcoupon.apputills.CommonUtils;
+import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
 
 import org.json.JSONObject;
 
@@ -55,7 +56,7 @@ public class MassCouponActivity extends Activity {
 
     int qtycount=0;
 
-    private PullToRefreshListView couponPullRefreshListView;
+    private SwipyRefreshLayout mSwipyRefreshLayout;
     JSONObject jsonobj = null;
 
     List<CampaignEntity> albumList;
@@ -101,9 +102,10 @@ public class MassCouponActivity extends Activity {
             }
 
 
-            couponPullRefreshListView = (PullToRefreshListView) findViewById(R.id.listViewcoup);
-            list = couponPullRefreshListView.getRefreshableView();
+            mSwipyRefreshLayout = (SwipyRefreshLayout)findViewById(R.id.swipyrefreshlayout);
+            list = (ListView) findViewById(R.id.listview);
             list.setSelector(R.drawable.listselector);
+
             if (CampaignList.size() > 0)
                 list.setAdapter(new ImageBaseAdapter(getApplicationContext(), CampaignList));
 
