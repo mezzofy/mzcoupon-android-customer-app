@@ -3,7 +3,8 @@ Mezzofy Coupon Android Customer App
 
 #### Proguard Rules
 
-groovy
+```groovy
 -keepclassmembers class com.mezzofy.** {
  private <fields>;
 }
+```
