@@ -40,6 +40,12 @@
         android:layout_centerVertical="true"
         android:visibility="gone" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/nocouponrl"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content">
+
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="100dp"
@@ -61,6 +67,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000"
         android:textSize="15sp" />
+        </RelativeLayout>
 
     <!--<com.faizmalkani.floatingactionbutton.FloatingActionButton-->
     <!--android:id="@+id/fabbutton"-->

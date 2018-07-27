@@ -123,20 +123,22 @@ public class PoOrder_Module {
 
             List<PomEntity> poModels=poListModel.getPos();
 
-            for(PomEntity poModel:poModels)
-            {
-                PoEntity poData=poModel.getPo();
-                List<PoDetailmEntity> poDetailDatas=poModel.getPodetails();
+            if(poModels!=null) {
+                for (PomEntity poModel : poModels) {
+                    PoEntity poData = poModel.getPo();
+                    List<PoDetailmEntity> poDetailDatas = poModel.getPodetails();
 
-                res = daoorder.addOrder(poData);
-                for(PoDetailmEntity poDetailModel:poDetailDatas)
-                {
-                    res = daoorder.addOrderdetail(poDetailModel.getPodetail());
+                    res = daoorder.addOrder(poData);
+
+                    if (poDetailDatas != null)
+                        for (PoDetailmEntity poDetailModel : poDetailDatas) {
+                            res = daoorder.addOrderdetail(poDetailModel.getPodetail());
+                        }
+                    if (res)
+                        con.commit();
+                    else
+                        con.rollback();
                 }
-                if(res)
-                    con.commit();
-                else
-                    con.rollback();
             }
 
         }catch (SQLException e) {

@@ -112,6 +112,7 @@ public class CouponRedeemList_Activity extends Fragment implements
 
     double latitude;
     double logitude;
+    RelativeLayout relativeLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -149,6 +150,8 @@ public class CouponRedeemList_Activity extends Fragment implements
                 tempvoucher.setVisibility(View.GONE);
                 view17.setVisibility(View.GONE);
             }
+
+            relativeLayout = (RelativeLayout) rootView.findViewById(R.id.nocouponrl);
 
             mSwipyRefreshLayout = (SwipyRefreshLayout) rootView.findViewById(R.id.swipyrefreshlayout);
             list = (ListView) rootView.findViewById(R.id.listview);
@@ -301,14 +304,17 @@ public class CouponRedeemList_Activity extends Fragment implements
             } else {
                 tempvoucher.setVisibility(View.GONE);
                 view17.setVisibility(View.GONE);
+
             }
 
 
             progress.setVisibility(View.INVISIBLE);
             list.setClickable(true);
             list.setEnabled(true);
-            if (RedeemCouponList != null && RedeemCouponList.size() > 0)
+            if (RedeemCouponList != null && RedeemCouponList.size() > 0) {
                 list.setAdapter(new MerCouponRedeemAdapter(getActivity(), RedeemCouponList));
+                relativeLayout.setVisibility(View.GONE);
+            }
         }
 
         @Override

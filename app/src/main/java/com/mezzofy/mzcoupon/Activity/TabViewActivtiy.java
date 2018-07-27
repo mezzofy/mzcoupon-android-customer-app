@@ -94,18 +94,19 @@ public class TabViewActivtiy extends FragmentActivity implements View.OnClickLis
 
         cartModule=new Cart_Module(TabViewActivtiy.this);
         settingModule=new Setting_Module(TabViewActivtiy.this);
-//        merchantModule=new Merchant_Module(TabViewActivtiy.this);
+        merchantModule=new Merchant_Module(TabViewActivtiy.this);
 
-//        try {
-//            merchantData=merchantModule.getMerchantList();
-//            Currency=merchantData.getCurrency();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try {
+            merchantData=merchantModule.getMerchantList();
+            Currency=merchantData.getCurrency();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         try {
             cout = cartModule.getItemcart();
-            totalamount=cartModule.getTotalcart();
+            if(cartModule.getTotalcart()!=null)
+                totalamount=Double.valueOf(cartModule.getTotalcart().toString());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -228,7 +229,8 @@ public class TabViewActivtiy extends FragmentActivity implements View.OnClickLis
                 cartimage.setImageResource(R.drawable.cart);
                 changeTextcolor();
                 carttext.setTextColor(getResources().getColor(R.color.white));
-                carttext.setText(Currency +" "+ String.format("%,.0f", totalamount));
+                if(Currency!=null)
+                    carttext.setText(Currency +" "+ String.format("%,.0f", totalamount));
                 loadFragment(new CartActivity());
                break;
             case R.id.tab_five:

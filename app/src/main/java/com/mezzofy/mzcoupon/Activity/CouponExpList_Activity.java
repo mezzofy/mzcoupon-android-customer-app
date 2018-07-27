@@ -119,6 +119,7 @@ public class CouponExpList_Activity extends Fragment implements
     double logitude;
 
     ExpAsyncOnload Actytask;
+    RelativeLayout relativeLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -156,6 +157,9 @@ public class CouponExpList_Activity extends Fragment implements
             mSwipyRefreshLayout = (SwipyRefreshLayout) rootView.findViewById(R.id.swipyrefreshlayout);
             list = (ListView) rootView.findViewById(R.id.listview);
             list.setSelector(R.drawable.listselector);
+
+
+            relativeLayout = (RelativeLayout) rootView.findViewById(R.id.nocouponrl);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -307,9 +311,11 @@ public class CouponExpList_Activity extends Fragment implements
 
 
 
-            if (ExpCouponList != null && ExpCouponList.size() > 0)
+            if (ExpCouponList != null && ExpCouponList.size() > 0) {
                 list.setAdapter(new MercouponExpAdapter(getActivity(), ExpCouponList));
                 ListHelper.getListViewSize(list);
+                relativeLayout.setVisibility(View.GONE);
+            }
 
             progress.setVisibility(View.INVISIBLE);
             if(list!=null)

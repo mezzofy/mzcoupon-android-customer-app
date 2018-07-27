@@ -65,7 +65,7 @@
 }
 
 ##------------ Private Members of Promerce classes
--keepclassmembers class com.mezzofy.mzcoupon.** {
+-keepclassmembers class com.mezzofy.** {
  private <fields>;
 }
 

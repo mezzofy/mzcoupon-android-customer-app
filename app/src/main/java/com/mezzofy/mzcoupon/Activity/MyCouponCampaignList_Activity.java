@@ -118,6 +118,8 @@ public class MyCouponCampaignList_Activity extends Fragment implements
     private MercouponAdapter merchantCouponlistAdapter;
     private SizemEnity size;
 
+    RelativeLayout relativeLayout;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -152,6 +154,10 @@ public class MyCouponCampaignList_Activity extends Fragment implements
             CampaignList=null;
             tempvoucher = (TextView) rootViewc.findViewById(R.id.textviewtemp);
             view17 = (ImageView) rootViewc.findViewById(R.id.imageview17);
+
+
+            relativeLayout = (RelativeLayout) rootViewc.findViewById(R.id.nocouponrl);
+
 
             mSwipyRefreshLayout = (SwipyRefreshLayout) rootViewc.findViewById(R.id.swipyrefreshlayout);
             list = (ListView) rootViewc.findViewById(R.id.listview);
@@ -310,6 +316,7 @@ public class MyCouponCampaignList_Activity extends Fragment implements
                 merchantCouponlistAdapter = new MercouponAdapter(getActivity(), CampaignList);
                 list.setAdapter(merchantCouponlistAdapter);
                 ListHelper.getListViewSize(list);
+                relativeLayout.setVisibility(View.GONE);
             }
 
 

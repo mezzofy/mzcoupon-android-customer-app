@@ -41,8 +41,6 @@ public class AgreeActivity extends Activity implements OnClickListener {
     private int currentPage = 0;
 
     private int[] images = {
-            R.drawable.tutorial_1,
-            R.drawable.tutorial_2,
             R.drawable.shakebg,
     };
 
@@ -68,7 +66,7 @@ public class AgreeActivity extends Activity implements OnClickListener {
             viewpagerBanner.setAdapter(viewpagerAdapter);
             pageIndicator.setViewPager(viewpagerBanner);
 
-            NUM_PAGES = 3;
+            NUM_PAGES = 1;
             final Handler handler = new Handler();
             final Runnable Update = new Runnable() {
                 public void run() {
