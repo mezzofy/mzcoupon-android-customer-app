@@ -2,46 +2,24 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/signin_page"
     android:layout_width="match_parent"
-    android:background="@drawable/background_login"
     android:layout_height="match_parent">
 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/appicon"
+    android:layout_marginBottom="40dp"
+    android:background="@drawable/background_login"
+    android:layout_height="match_parent">
+    <ImageView
 
-    <LinearLayout
-        android:id="@+id/code_linear"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:visibility="invisible">
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/mlogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
-        <ImageView
-            android:id="@+id/qr_code"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:background="@color/orange"
-            android:src="@drawable/qr_code" />
-
-        <EditText
-            android:id="@+id/text"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="16"
-            android:background="#90FFFFFF"
-            android:gravity="center"
-            android:hint="@string/drag_hint"
-            android:inputType="number"
-            android:textSize="14dp" />
-
-        <ImageView
-            android:id="@+id/lucky_draw"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.1"
-            android:background="#0000ff"
-            android:src="@drawable/lucky_draw" />
-
-    </LinearLayout>
+</RelativeLayout>
 
     <com.handmark.pulltorefresh.library.PullToRefreshListView
         android:id="@+id/listView"
@@ -85,44 +63,65 @@
         <!--android:textSize="15sp"-->
     <!--/>-->
 
-    <TextView
-        android:id="@+id/sign_in"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:gravity="center"
-        android:textAlignment="gravity"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
-        android:text="@string/Sign_In"
-        android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:orientation="vertical">
 
 
+    <RelativeLayout
+        android:id="@+id/layoutguestlogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/guest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/guest_login"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textSize="15sp" />
 
-    <TextView
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Register"
-        android:layout_marginBottom="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:textColor="@color/black"
-        android:textSize="15sp" />
+        </RelativeLayout>
 
 
-    <TextView
-        android:id="@+id/guest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/guest_login"
-        android:textColor="@color/black"
-        android:layout_marginRight="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/Register"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:background="@color/light_orange"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sign_in"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_marginBottom="100dp"
+            android:text="@string/Sign_In"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </LinearLayout>
 
 
     </RelativeLayout>

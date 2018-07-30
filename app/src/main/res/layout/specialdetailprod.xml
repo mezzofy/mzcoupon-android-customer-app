@@ -8,7 +8,7 @@
 
     android:layout_height="wrap_content"
 
-    card_view:cardBackgroundColor="@color/black"
+    card_view:cardBackgroundColor="@color/white"
 
     card_view:cardCornerRadius="8dp"
 
