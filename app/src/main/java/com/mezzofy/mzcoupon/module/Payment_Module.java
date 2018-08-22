@@ -2,12 +2,6 @@ package com.mezzofy.mzcoupon.module;
 
 import android.content.Context;
 
-import com.mezzofy.MzCouponAPI.data.PaymentListDataModel;
-import com.mezzofy.MzCouponAPI.data.PoData;
-import com.mezzofy.MzCouponAPI.data.PomData;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZPayment;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
 
 import com.mezzofy.mzcoupon.Entity.PaymentEntity;
 import com.mezzofy.mzcoupon.Entity.PaymentDetailEntity;
@@ -30,6 +24,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import mezzofy.com.libmzcoupon.data.PaymentListDataModel;
+import mezzofy.com.libmzcoupon.data.PoData;
+import mezzofy.com.libmzcoupon.data.PomData;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZPayment;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 
 /**

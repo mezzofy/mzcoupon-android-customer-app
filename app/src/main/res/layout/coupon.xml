@@ -6,12 +6,12 @@
     android:background="@drawable/specialbg">
 
 
-    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+    <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        app:direction="both">
+        app:srl_direction="both">
 
 
         <ListView
@@ -21,7 +21,7 @@
             android:layout_below="@+id/relative1"
             android:visibility="visible" />
 
-    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
 
 
     <ProgressBar
@@ -32,12 +32,6 @@
         android:layout_centerVertical="true"
         android:visibility="gone" />
 
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:id="@+id/nocouponrl"
-        android:layout_height="wrap_content">
-
     <TextView
         android:id="@+id/textviewtemp"
         android:layout_width="wrap_content"
@@ -45,7 +39,7 @@
         android:layout_below="@+id/imageview17"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:padding="50dp"
+        android:padding="20dp"
         android:text="@string/No_voucher"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black"
@@ -55,19 +49,15 @@
         android:id="@+id/imageview17"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-
         android:src="@drawable/emptycoupon" />
-    </RelativeLayout>
 
 
-    <com.faizmalkani.floatingactionbutton.FloatingActionButton
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabbutton"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:layout_alignEnd="@+id/swipyrefreshlayout"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/swipyrefreshlayout"
         android:layout_gravity="bottom|end"

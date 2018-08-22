@@ -18,7 +18,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ProgressBar;
 
-import com.mezzofy.MzCouponAPI.module.MZCampaign;
+
 import com.mezzofy.mzcoupon.Entity.CampGrpEntity;
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.Entity.MerchantEntity;
@@ -38,6 +38,8 @@ import com.mezzofy.mzcoupon.module.Merchantsite_Module;
 import com.mezzofy.mzcoupon.module.Payment_Module;
 import com.mezzofy.mzcoupon.module.PoOrder_Module;
 import com.mezzofy.mzcoupon.module.Customer_Module;
+
+import mezzofy.com.libmzcoupon.module.MZCampaign;
 
 
 public class ProgressActivity extends Activity {

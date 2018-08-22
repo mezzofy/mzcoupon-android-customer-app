@@ -27,7 +27,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.Entity.MzCountry;
 import com.mezzofy.mzcoupon.R;
@@ -41,6 +41,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 /**
  * Created by aruna on 08/06/2017.

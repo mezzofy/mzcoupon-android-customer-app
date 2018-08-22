@@ -158,13 +158,13 @@ public class Cart_Module {
         return res;
     }
 
-    public Double getTotalcart() throws Exception{
-        double res = 0f;
+    public String getTotalcart() throws Exception{
+        String res = null;
         Connection con=null;
         try {
             con = dbhelper.getConnection();
             Cart_Dao daocart = dbhelper.getCartDao(con);
-            res = daocart.getTotalcart();
+            res = daocart.getTotalcart().toString();
 
         }catch (SQLException e) {
             e.printStackTrace();

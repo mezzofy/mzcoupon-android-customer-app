@@ -20,8 +20,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
+
 import com.mezzofy.mzcoupon.Entity.CampaignEntity;
 import com.mezzofy.mzcoupon.Entity.MasscouponEntity;
 import com.mezzofy.mzcoupon.Entity.MasscouponDetailEntity;
@@ -31,12 +31,15 @@ import com.mezzofy.mzcoupon.Entity.MassCouponmEntity;
 import com.mezzofy.mzcoupon.module.Campaign_Module;
 import com.mezzofy.mzcoupon.module.MassRedeem_Module;
 import com.mezzofy.mzcoupon.apputills.CommonUtils;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 /**
  * Created by udhayinforios on 21/1/16.
@@ -146,11 +149,13 @@ public class MassCouponActivity extends Activity {
                         massCouponModel.setMasscoupondtls(masscouponDetailDatasList);
 
                         MassCouponmEntity ret= null;
+
                         try {
                             ret = massRedeemModule.postMassRedeem(massCouponModel);
                         } catch (APIServerException e) {
-                            common.Snackbar(layout, e.getMessage());
+                            e.printStackTrace();
                         }
+
                         if(ret!=null && ret.getMasscoupon()!=null && ret.getMasscoupon().getReferenceNo()!=null)
                         {
                             Intent intent = new Intent(getApplicationContext(), QrCodewalnetActivity.class);

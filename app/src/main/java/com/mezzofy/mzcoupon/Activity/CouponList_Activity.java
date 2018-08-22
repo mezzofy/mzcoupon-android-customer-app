@@ -52,17 +52,14 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.handmark.pulltorefresh.library.PullToRefreshBase;
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
-import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
-import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
+
 import com.mezzofy.mzcoupon.Entity.CustomerCouponmEntity;
 import com.mezzofy.mzcoupon.apputills.ObjectSerializer;
 import com.mezzofy.mzcoupon.module.Coupon_Module;
 import com.mezzofy.mzcoupon.module.Merchantsite_Module;
 import com.mezzofy.mzcoupon.pojo.CouponRes;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
 public class CouponList_Activity extends Activity implements
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {

@@ -171,13 +171,13 @@
 
 
 
-    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+    <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/searchly"
         android:layout_marginTop="5dp"
-        app:direction="both">
+        app:srl_direction="both">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -249,14 +249,14 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="5dp"
-                    android:background="#00000000"
-                    android:divider="#00000000"
+                    android:background="@color/white"
+                    android:divider="@color/white"
                     android:dividerHeight="8dp"
                     android:smoothScrollbar="true" />
 
             </LinearLayout>
         </ScrollView>
-    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
 
     <ProgressBar
         android:id="@+id/progress1"

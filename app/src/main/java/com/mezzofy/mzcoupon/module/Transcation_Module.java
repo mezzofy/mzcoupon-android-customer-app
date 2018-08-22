@@ -2,15 +2,17 @@ package com.mezzofy.mzcoupon.module;
 
 import android.content.Context;
 
-import com.mezzofy.MzCouponAPI.data.WalletDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZTransaction;
+
 import com.mezzofy.mzcoupon.Entity.WalletmEntity;
 
 import org.json.JSONException;
 
 
 import java.io.IOException;
+
+import mezzofy.com.libmzcoupon.data.WalletDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZTransaction;
 
 /**
  * Created by aruna on 10/20/17.

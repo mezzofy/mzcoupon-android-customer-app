@@ -35,8 +35,7 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.gson.Gson;
-import com.handmark.pulltorefresh.library.PullToRefreshBase;
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
+
 import com.mezzofy.mzcoupon.Adapter.MerCouponRedeemAdapter;
 import com.mezzofy.mzcoupon.Adapter.MercouponExpAdapter;
 import com.mezzofy.mzcoupon.Entity.CouponEntity;
@@ -49,8 +48,8 @@ import com.mezzofy.mzcoupon.module.Coupon_Module;
 import com.mezzofy.mzcoupon.module.Merchant_Module;
 import com.mezzofy.mzcoupon.module.Merchantsite_Module;
 import com.mezzofy.mzcoupon.pojo.CouponRes;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
 import org.json.JSONObject;
 
@@ -119,7 +118,6 @@ public class CouponExpList_Activity extends Fragment implements
     double logitude;
 
     ExpAsyncOnload Actytask;
-    RelativeLayout relativeLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -157,9 +155,6 @@ public class CouponExpList_Activity extends Fragment implements
             mSwipyRefreshLayout = (SwipyRefreshLayout) rootView.findViewById(R.id.swipyrefreshlayout);
             list = (ListView) rootView.findViewById(R.id.listview);
             list.setSelector(R.drawable.listselector);
-
-
-            relativeLayout = (RelativeLayout) rootView.findViewById(R.id.nocouponrl);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -311,11 +306,9 @@ public class CouponExpList_Activity extends Fragment implements
 
 
 
-            if (ExpCouponList != null && ExpCouponList.size() > 0) {
+            if (ExpCouponList != null && ExpCouponList.size() > 0)
                 list.setAdapter(new MercouponExpAdapter(getActivity(), ExpCouponList));
                 ListHelper.getListViewSize(list);
-                relativeLayout.setVisibility(View.GONE);
-            }
 
             progress.setVisibility(View.INVISIBLE);
             if(list!=null)

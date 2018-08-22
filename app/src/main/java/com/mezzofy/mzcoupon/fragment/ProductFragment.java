@@ -28,15 +28,14 @@ import com.mezzofy.mzcoupon.Entity.CampaignEntity;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.Entity.CampaignmEntity;
 import com.mezzofy.mzcoupon.module.Campaign_Module;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 import com.mezzofy.mzcoupon.Adapter.ProductBaseAdapter;
 
 import com.mezzofy.mzcoupon.Activity.FavouriteActivity;
 import com.mezzofy.mzcoupon.Activity.FilterActivity;
 import com.mezzofy.mzcoupon.Activity.SpecialDetailActivity;
 import com.mezzofy.mzcoupon.Activity.TabViewActivtiy;
-
 import com.mezzofy.mzcoupon.pojo.CompanyProduct;
 
 import com.mezzofy.mzcoupon.apputills.CommonUtils;

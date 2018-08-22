@@ -4,16 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.mezzofy.MzCouponAPI.data.CustomerCouponListDataModel;
-import com.mezzofy.MzCouponAPI.data.CustomerCouponDataModel;
-import com.mezzofy.MzCouponAPI.data.GiftcouponDataModel;
-import com.mezzofy.MzCouponAPI.data.MassCouponDataModel;
-import com.mezzofy.MzCouponAPI.data.SiteDataModel;
-import com.mezzofy.MzCouponAPI.data.StockDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZCoupon;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
 import com.mezzofy.mzcoupon.Entity.CouponEntity;
 
 import com.mezzofy.mzcoupon.Database.CouponDB;
@@ -37,6 +28,15 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import mezzofy.com.libmzcoupon.data.CustomerCouponDataModel;
+import mezzofy.com.libmzcoupon.data.CustomerCouponListDataModel;
+import mezzofy.com.libmzcoupon.data.GiftcouponDataModel;
+import mezzofy.com.libmzcoupon.data.MassCouponDataModel;
+import mezzofy.com.libmzcoupon.data.SiteDataModel;
+import mezzofy.com.libmzcoupon.data.StockDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZCoupon;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 
 /**

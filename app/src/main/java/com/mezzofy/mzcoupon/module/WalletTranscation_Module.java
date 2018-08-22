@@ -7,11 +7,7 @@ import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
 
-import com.mezzofy.MzCouponAPI.data.WalletTxnListDataModel;
-import com.mezzofy.MzCouponAPI.data.WalletTxnDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZWalletTransaction;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.WalletTxnEntity;
 import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.WalletTransaction_Dao;
@@ -30,6 +26,11 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
+import mezzofy.com.libmzcoupon.data.WalletTxnDataModel;
+import mezzofy.com.libmzcoupon.data.WalletTxnListDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZWalletTransaction;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 
 /**

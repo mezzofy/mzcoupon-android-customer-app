@@ -43,7 +43,7 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.gson.Gson;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CampGrpEntity;
 import com.mezzofy.mzcoupon.Entity.CampaignEntity;
 import com.mezzofy.mzcoupon.Entity.SiteEntity;
@@ -53,7 +53,7 @@ import com.mezzofy.mzcoupon.Entity.CampaignGroupmEntity;
 import com.mezzofy.mzcoupon.Entity.CampaignmEntity;
 import com.mezzofy.mzcoupon.Entity.CampaignSearchmEntity;
 import com.mezzofy.mzcoupon.module.Campaign_Module;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+
 import com.mezzofy.mzcoupon.Adapter.ProductBaseAdapter;
 import com.mezzofy.mzcoupon.Adapter.SpecialAdapter;
 import com.mezzofy.mzcoupon.apputills.CommonUtils;
@@ -61,11 +61,15 @@ import com.mezzofy.mzcoupon.apputills.ListPulldownHelper;
 import com.mezzofy.mzcoupon.apputills.ObjectSerializer;
 import com.mezzofy.mzcoupon.pojo.CompanyProduct;
 import com.mezzofy.mzcoupon.pojo.Productfilter;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 public class CampaignMainList_Activity extends Fragment implements
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener, OnClickListener {

@@ -19,7 +19,7 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CouponEntity;
 import com.mezzofy.mzcoupon.Entity.MerchantEntity;
 import com.mezzofy.mzcoupon.Entity.OrderEntity;
@@ -35,6 +35,8 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 /**
  * Created by LENOVO on 18/06/2015.

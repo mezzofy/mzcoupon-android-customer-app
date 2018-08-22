@@ -1,5 +1,6 @@
 package com.mezzofy.mzcoupon.Entity;
 
+import com.google.gson.annotations.Expose;
 import com.mezzofy.mzcoupon.mapper.Column;
 import com.mezzofy.mzcoupon.mapper.Entity;
 
@@ -55,6 +56,13 @@ public class CustomerEntity {
     @Column(name = "customerImageUrl")
     private String customerImageUrl;
 
+    private String countryName;
+    private String dateofbirth;
+    private int couponCount;
+    private String groupName;
+    private String memberId;
+    private String customData;
+
     public String getCustomerId() {
         return customerId;
     }
@@ -77,6 +85,54 @@ public class CustomerEntity {
 
     public void setCustomerGroupId(String customerGroupId) {
         this.customerGroupId = customerGroupId;
+    }
+
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public void setCountryName(String countryName) {
+        this.countryName = countryName;
+    }
+
+    public String getDateofbirth() {
+        return dateofbirth;
+    }
+
+    public void setDateofbirth(String dateofbirth) {
+        this.dateofbirth = dateofbirth;
+    }
+
+    public int getCouponCount() {
+        return couponCount;
+    }
+
+    public void setCouponCount(int couponCount) {
+        this.couponCount = couponCount;
+    }
+
+    public String getGroupName() {
+        return groupName;
+    }
+
+    public void setGroupName(String groupName) {
+        this.groupName = groupName;
+    }
+
+    public String getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
+
+    public String getCustomData() {
+        return customData;
+    }
+
+    public void setCustomData(String customData) {
+        this.customData = customData;
     }
 
     public String getCustomerFirstName() {

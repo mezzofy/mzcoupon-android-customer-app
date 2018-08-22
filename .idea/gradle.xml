@@ -8,13 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Zxing" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/floatingActionButton" />
-            <option value="$PROJECT_DIR$/libSwipyRefresh" />
-            <option value="$PROJECT_DIR$/libraryanim" />
             <option value="$PROJECT_DIR$/librarypager" />
-            <option value="$PROJECT_DIR$/libraryrefresh" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

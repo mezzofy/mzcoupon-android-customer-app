@@ -3,9 +3,7 @@ package com.mezzofy.mzcoupon.module;
 import android.content.Context;
 
 
-import com.mezzofy.MzCouponAPI.data.PoListDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZPoOrder;
+
 import com.mezzofy.mzcoupon.Entity.PoEntity;
 import com.mezzofy.mzcoupon.Entity.PoDetailEntity;
 import com.mezzofy.mzcoupon.Database.CouponDB;
@@ -21,6 +19,10 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+
+import mezzofy.com.libmzcoupon.data.PoListDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZPoOrder;
 
 /**
  * Created by aruna on 7/3/17.

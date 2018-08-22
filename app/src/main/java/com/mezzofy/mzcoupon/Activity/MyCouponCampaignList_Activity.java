@@ -17,6 +17,7 @@ import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
@@ -31,7 +32,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.faizmalkani.floatingactionbutton.FloatingActionButton;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
@@ -50,8 +51,8 @@ import com.mezzofy.mzcoupon.module.Coupon_Module;
 import com.mezzofy.mzcoupon.module.Merchantsite_Module;
 import com.mezzofy.mzcoupon.module.Setting_Module;
 import com.mezzofy.mzcoupon.pojo.CouponRes;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
-import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
 import org.json.JSONObject;
 
@@ -118,8 +119,6 @@ public class MyCouponCampaignList_Activity extends Fragment implements
     private MercouponAdapter merchantCouponlistAdapter;
     private SizemEnity size;
 
-    RelativeLayout relativeLayout;
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -141,8 +140,8 @@ public class MyCouponCampaignList_Activity extends Fragment implements
 
 
             mFab = (FloatingActionButton) rootViewc.findViewById(R.id.fabbutton);
-            mFab.setColor(Color.parseColor("#000000"));
-            mFab.setDrawable(getResources().getDrawable(R.drawable.table_white));
+//            mFab.setColor(Color.parseColor("#000000"));
+//            mFab.setDrawable(getResources().getDrawable(R.drawable.table_white));
 
             settings = PreferenceManager.getDefaultSharedPreferences(getActivity().getApplicationContext());
 
@@ -154,10 +153,6 @@ public class MyCouponCampaignList_Activity extends Fragment implements
             CampaignList=null;
             tempvoucher = (TextView) rootViewc.findViewById(R.id.textviewtemp);
             view17 = (ImageView) rootViewc.findViewById(R.id.imageview17);
-
-
-            relativeLayout = (RelativeLayout) rootViewc.findViewById(R.id.nocouponrl);
-
 
             mSwipyRefreshLayout = (SwipyRefreshLayout) rootViewc.findViewById(R.id.swipyrefreshlayout);
             list = (ListView) rootViewc.findViewById(R.id.listview);
@@ -189,7 +184,7 @@ public class MyCouponCampaignList_Activity extends Fragment implements
             });
 
 
-            mFab.listenTo(list);
+//            mFab.listenTo(list);
 
             mSwipyRefreshLayout.setOnRefreshListener(new SwipyRefreshLayout.OnRefreshListener() {
                 @Override
@@ -316,7 +311,6 @@ public class MyCouponCampaignList_Activity extends Fragment implements
                 merchantCouponlistAdapter = new MercouponAdapter(getActivity(), CampaignList);
                 list.setAdapter(merchantCouponlistAdapter);
                 ListHelper.getListViewSize(list);
-                relativeLayout.setVisibility(View.GONE);
             }
 
 

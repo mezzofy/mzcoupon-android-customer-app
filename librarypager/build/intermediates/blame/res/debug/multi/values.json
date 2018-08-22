@@ -946,7 +946,7 @@
         ]
     },
     {
-        "outputFile": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -957,7 +957,7 @@
                     "endOffset": 95
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__attrs.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__attrs.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -976,7 +976,7 @@
                     "endOffset": 143
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__attrs.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__attrs.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -995,7 +995,7 @@
                     "endOffset": 193
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__attrs.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__attrs.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -1014,7 +1014,7 @@
                     "endOffset": 243
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__attrs.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__attrs.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -1033,7 +1033,7 @@
                     "endOffset": 306
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1052,7 +1052,7 @@
                     "endOffset": 366
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1071,7 +1071,7 @@
                     "endOffset": 427
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -1090,7 +1090,7 @@
                     "endOffset": 494
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -1109,7 +1109,7 @@
                     "endOffset": 557
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -1128,7 +1128,7 @@
                     "endOffset": 627
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1147,7 +1147,7 @@
                     "endOffset": 699
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1166,7 +1166,7 @@
                     "endOffset": 773
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1185,7 +1185,7 @@
                     "endOffset": 847
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1204,7 +1204,7 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -1223,7 +1223,7 @@
                     "endOffset": 996
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -1242,7 +1242,7 @@
                     "endOffset": 1071
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -1261,7 +1261,7 @@
                     "endOffset": 1140
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -1280,7 +1280,7 @@
                     "endOffset": 1219
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -1299,7 +1299,7 @@
                     "endOffset": 1279
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1318,7 +1318,7 @@
                     "endOffset": 1340
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1337,7 +1337,7 @@
                     "endOffset": 1418
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1356,7 +1356,7 @@
                     "endOffset": 1497
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1375,7 +1375,7 @@
                     "endOffset": 1590
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1394,7 +1394,7 @@
                     "endOffset": 1683
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1413,7 +1413,7 @@
                     "endOffset": 1791
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1432,7 +1432,7 @@
                     "endOffset": 1899
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__colors.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__colors.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1451,7 +1451,7 @@
                     "endOffset": 4266
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1470,7 +1470,7 @@
                     "endOffset": 4334
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1489,7 +1489,7 @@
                     "endOffset": 4397
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -1508,7 +1508,7 @@
                     "endOffset": 4462
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1527,7 +1527,7 @@
                     "endOffset": 4528
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -1546,7 +1546,7 @@
                     "endOffset": 4595
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -1565,7 +1565,7 @@
                     "endOffset": 4673
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -1584,7 +1584,7 @@
                     "endOffset": 4763
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -1603,7 +1603,7 @@
                     "endOffset": 4836
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -1622,7 +1622,7 @@
                     "endOffset": 4905
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -1641,7 +1641,7 @@
                     "endOffset": 4970
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -1660,7 +1660,7 @@
                     "endOffset": 5038
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -1679,7 +1679,7 @@
                     "endOffset": 5104
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -1698,7 +1698,7 @@
                     "endOffset": 5173
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1717,7 +1717,7 @@
                     "endOffset": 5252
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -1736,7 +1736,7 @@
                     "endOffset": 5322
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -1755,7 +1755,7 @@
                     "endOffset": 5395
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -1774,7 +1774,7 @@
                     "endOffset": 5469
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__defaults.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__defaults.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -1794,7 +1794,7 @@
                     "endOffset": 5667
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__styles.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__styles.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -1815,7 +1815,7 @@
                     "endOffset": 5920
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__styles.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__styles.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1836,7 +1836,7 @@
                     "endOffset": 5959
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__styles.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__styles.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1857,7 +1857,7 @@
                     "endOffset": 6149
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__styles.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__styles.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -1878,7 +1878,7 @@
                     "endOffset": 6923
                 },
                 "from": {
-                    "file": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/values/vpi__styles.xml",
+                    "file": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/values/vpi__styles.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,

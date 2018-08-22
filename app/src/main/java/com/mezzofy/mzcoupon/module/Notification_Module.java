@@ -4,9 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.mezzofy.MzCouponAPI.data.NotificationListDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZNotification;
+
 import com.mezzofy.mzcoupon.apputills.ObjectSerializer;
 import com.mezzofy.mzcoupon.Entity.NotificationListmEntity;
 import com.mezzofy.mzcoupon.Entity.NotificationmEntity;
@@ -16,6 +14,10 @@ import org.json.JSONException;
 
 import java.io.IOException;
 import java.util.List;
+
+import mezzofy.com.libmzcoupon.data.NotificationListDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZNotification;
 
 /**
  * Created by aruna on 11/14/17.

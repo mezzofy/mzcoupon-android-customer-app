@@ -177,7 +177,7 @@
                 android:layout_height="20dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/menu_setting"
+                android:text="@string/menu_settings"
                 android:textSize="12sp"
                 android:textColor="@color/tabtext_color"
                 android:layout_below="@+id/setting_image"

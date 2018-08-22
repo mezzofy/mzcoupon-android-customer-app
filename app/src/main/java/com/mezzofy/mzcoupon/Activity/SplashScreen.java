@@ -1,6 +1,6 @@
 package com.mezzofy.mzcoupon.Activity;
 
-import com.crashlytics.android.Crashlytics;
+//import com.crashlytics.android.Crashlytics;
 import com.facebook.FacebookSdk;
 import com.mezzofy.mzcoupon.R;
 
@@ -20,7 +20,7 @@ import io.branch.indexing.BranchUniversalObject;
 import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
 import io.branch.referral.util.LinkProperties;
-import io.fabric.sdk.android.Fabric;
+//import io.fabric.sdk.android.Fabric;
 
 public class SplashScreen extends Activity {
 
@@ -30,7 +30,7 @@ public class SplashScreen extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
+//        Fabric.with(this, new Crashlytics());
         FacebookSdk.sdkInitialize(SplashScreen.this);
         setContentView(R.layout.activity_splash);
 

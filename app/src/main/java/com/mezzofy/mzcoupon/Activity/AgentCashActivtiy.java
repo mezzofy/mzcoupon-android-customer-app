@@ -29,9 +29,6 @@ public class AgentCashActivtiy extends Activity implements View.OnClickListener 
 
     String flag, url, paykey, merhid;
 
-
-    ProgressDialog progressDialog;
-
     List<CartEntity> cartList = null;
 
     private Cart_Module cartModule;

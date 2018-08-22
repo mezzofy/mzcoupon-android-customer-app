@@ -3,7 +3,7 @@ package com.mezzofy.mzcoupon.Activity;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.apputills.DetectConnection;
@@ -24,6 +24,8 @@ import android.widget.RelativeLayout;
 import com.mezzofy.mzcoupon.Entity.CustomermEntity;
 import com.mezzofy.mzcoupon.module.Customer_Module;
 import com.mezzofy.mzcoupon.apputills.CommonUtils;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 public class ChangepwdActivity extends Activity {
 

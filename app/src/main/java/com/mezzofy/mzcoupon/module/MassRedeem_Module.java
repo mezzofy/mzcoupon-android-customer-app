@@ -5,10 +5,7 @@ import android.content.Context;
 
 import com.google.gson.Gson;
 
-import com.mezzofy.MzCouponAPI.data.MassCouponDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZMassRedeem;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 
 import com.mezzofy.mzcoupon.Entity.MassCouponmEntity;
 
@@ -16,6 +13,11 @@ import com.mezzofy.mzcoupon.Entity.MassCouponmEntity;
 import org.json.JSONException;
 
 import java.io.IOException;
+
+import mezzofy.com.libmzcoupon.data.MassCouponDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZMassRedeem;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 
 /**

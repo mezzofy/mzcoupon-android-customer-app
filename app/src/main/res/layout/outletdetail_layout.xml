@@ -39,14 +39,14 @@
     </RelativeLayout>
 
 
-    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+    <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tabBar"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        app:direction="both">
+        app:srl_direction="both">
 
         <ScrollView
             android:id="@+id/scroll"
@@ -201,7 +201,7 @@
             </RelativeLayout>
         </ScrollView>
 
-    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
 
 
     <ProgressBar

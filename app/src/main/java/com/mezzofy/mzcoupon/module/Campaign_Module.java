@@ -4,13 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.mezzofy.MzCouponAPI.data.CampaignDataModel;
-import com.mezzofy.MzCouponAPI.data.CampaignGroupListDataModel;
-import com.mezzofy.MzCouponAPI.data.CampaignSearchDataModel;
-import com.mezzofy.MzCouponAPI.data.CampaignsData;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZCampaign;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CampGrpDetailEntity;
 import com.mezzofy.mzcoupon.Entity.CampGrpEntity;
 import com.mezzofy.mzcoupon.Entity.CampaignEntity;
@@ -34,6 +28,14 @@ import java.sql.SQLException;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import mezzofy.com.libmzcoupon.data.CampaignDataModel;
+import mezzofy.com.libmzcoupon.data.CampaignGroupListDataModel;
+import mezzofy.com.libmzcoupon.data.CampaignSearchDataModel;
+import mezzofy.com.libmzcoupon.data.CampaignsData;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZCampaign;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 
 /**
@@ -89,6 +91,8 @@ public class Campaign_Module {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {
+            e.printStackTrace();
+        } catch (APIServerException e) {
             e.printStackTrace();
         }
 

@@ -173,7 +173,7 @@ public class CashConformActivity extends Activity implements View.OnClickListene
             Res.setPlaceId(staffRes.getMerchantId());
             Res.setCustomerId(staffRes.getCustomerId());
             try {
-                Res.setTransactionTotal(cartModule.getTotalcart());
+                Res.setTransactionTotal(Double.valueOf(cartModule.getTotalcart()));
             } catch (Exception e) {
                 e.printStackTrace();
             }

@@ -22,7 +22,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.Entity.CustomermEntity;
@@ -31,6 +31,8 @@ import com.mezzofy.mzcoupon.apputills.CommonUtils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 @SuppressLint("NewApi")
 public class ForgetActivity extends Activity {

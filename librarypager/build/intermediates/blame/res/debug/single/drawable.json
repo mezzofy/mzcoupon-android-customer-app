@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
-        "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon/librarypager/src/main/res/drawable/vpi__tab_indicator.xml"
-    },
-    {
         "merged": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
         "source": "/Users/aruna/Workspace/Live/ArunaLive/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/aruna/Workspace/Live/ArunaLive/Project/mojodomo/mojodomo-wallet(mzcoupon)/MZCoupon(githubLib)/librarypager/src/main/res/drawable/vpi__tab_indicator.xml"
     }
 ]

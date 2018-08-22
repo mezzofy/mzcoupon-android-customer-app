@@ -30,7 +30,7 @@ import android.widget.TextView;
 import com.estimote.sdk.Beacon;
 import com.estimote.sdk.SystemRequirementsChecker;
 import com.google.gson.Gson;
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
+
 import com.mezzofy.mzcoupon.Adapter.DragListAdapter;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.apputills.CommonUtils;
@@ -58,7 +58,7 @@ public class WelcomeActivity extends GCM_Register implements View.OnClickListene
     private EditText code;
 
 
-    private PullToRefreshListView PullRefreshListView;
+//    private PullToRefreshListView PullRefreshListView;
 
     private DragListAdapter adapter;
 
@@ -161,8 +161,8 @@ public class WelcomeActivity extends GCM_Register implements View.OnClickListene
         qrcode.setOnClickListener(this);
         luckydraw = (ImageView) findViewById(R.id.lucky_draw);
         luckydraw.setOnClickListener(this);
-        PullRefreshListView = (PullToRefreshListView) findViewById(R.id.listView);
-        PullRefreshListView.setOnItemClickListener(this);
+//        PullRefreshListView = (PullToRefreshListView) findViewById(R.id.listView);
+//        PullRefreshListView.setOnItemClickListener(this);
 
         progress = (ProgressBar) findViewById(R.id.progress1);
         //beacon = (ImageView) findViewById(R.id.imageView15);
@@ -326,7 +326,7 @@ public class WelcomeActivity extends GCM_Register implements View.OnClickListene
 
             if (promoList != null && promoList.size() > 0) {
                 adapter = new DragListAdapter(WelcomeActivity.this, promoList);
-                PullRefreshListView.setAdapter(adapter);
+//                PullRefreshListView.setAdapter(adapter);
             }
 
             if (objdraw.getTitle().equals("MZMerchant Promotion")) {
@@ -367,8 +367,8 @@ public class WelcomeActivity extends GCM_Register implements View.OnClickListene
         protected synchronized void onPreExecute() {
             Log.i("TAG", "onPostExecute");
             progress.setVisibility(View.VISIBLE);
-            PullRefreshListView.setClickable(false);
-            PullRefreshListView.setEnabled(false);
+//            PullRefreshListView.setClickable(false);
+//            PullRefreshListView.setEnabled(false);
         }
 
         @Override
@@ -387,8 +387,8 @@ public class WelcomeActivity extends GCM_Register implements View.OnClickListene
             Log.i("TAG", "onPostExecute");
             // new Thread(myThread).start();
             progress.setVisibility(View.GONE);
-            PullRefreshListView.setClickable(true);
-            PullRefreshListView.setEnabled(true);
+//            PullRefreshListView.setClickable(true);
+//            PullRefreshListView.setEnabled(true);
 
         }
 

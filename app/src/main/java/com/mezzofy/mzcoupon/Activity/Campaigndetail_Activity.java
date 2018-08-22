@@ -25,7 +25,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Adapter.SpecialDetailAdapter;
 import com.mezzofy.mzcoupon.Entity.CampaignEntity;
 import com.mezzofy.mzcoupon.Entity.CartEntity;
@@ -55,6 +55,7 @@ import io.branch.indexing.BranchUniversalObject;
 import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
 import io.branch.referral.util.LinkProperties;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 public class Campaigndetail_Activity extends Activity implements OnClickListener {
 

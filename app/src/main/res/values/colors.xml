@@ -7,7 +7,7 @@
 	<color name="tabMedium">#686868</color>
 	<color name="tabDark">#686868</color>
 	<color name="tabTransparent">#10ffffff</color>
-	
+	<color name="transparent">#10ffffff</color>
 	<drawable name="focused">#ffffff</drawable>
     <drawable name="selected">#FF00FF</drawable>
 	

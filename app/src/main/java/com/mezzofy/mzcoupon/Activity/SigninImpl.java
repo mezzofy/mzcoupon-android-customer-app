@@ -12,7 +12,7 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.Entity.CustomerDeviceEntity;
 import com.mezzofy.mzcoupon.R;
@@ -23,6 +23,8 @@ import com.mezzofy.mzcoupon.Entity.CustomerDevicemEntity;
 import com.mezzofy.mzcoupon.Entity.CustomermEntity;
 import com.mezzofy.mzcoupon.module.Customer_Module;
 import com.mezzofy.mzcoupon.module.Setting_Module;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 /**
  * Created by udhayinforios on 24/6/16.

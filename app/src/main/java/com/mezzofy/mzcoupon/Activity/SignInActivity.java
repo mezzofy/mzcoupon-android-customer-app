@@ -19,7 +19,7 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.Entity.CustomerDeviceEntity;
 import com.mezzofy.mzcoupon.R;
@@ -73,6 +73,8 @@ import org.json.JSONObject;
 
 
 import java.util.Arrays;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 
 @SuppressLint("NewApi")

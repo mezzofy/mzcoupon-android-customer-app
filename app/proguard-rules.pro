@@ -69,6 +69,9 @@
  private <fields>;
 }
 
+-keepclassmembers class mezzofy.com.** {
+ private <fields>;
+}
 -keep class * implements android.os.Parcelable {
  public static final android.os.Parcelable$Creator *;
 }

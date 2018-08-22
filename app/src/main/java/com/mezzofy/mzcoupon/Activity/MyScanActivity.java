@@ -21,7 +21,7 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.gson.Gson;
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CartEntity;
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.Entity.PaymentDetailEntity;
@@ -57,6 +57,7 @@ import com.mezzofy.mzcoupon.apputills.CommonUtils;
 
 import io.card.payment.CardIOActivity;
 import io.card.payment.CreditCard;
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 public class MyScanActivity extends Activity implements AdapterView.OnItemClickListener {
 
@@ -264,11 +265,13 @@ public class MyScanActivity extends Activity implements AdapterView.OnItemClickL
                         poData.setPoTotal(total);
                         poListModel.setPo(poData);
                         PoEntity poData1 = null;
+
                         try {
                             poData1 = paymentModule.DownloadChargeCouponFromServer(poListModel);
                         } catch (APIServerException e) {
-                            Toast.makeText(getApplicationContext(),"Error--"+ e.getMessage(), Toast.LENGTH_SHORT).show();
+                            e.printStackTrace();
                         }
+
                         if (poData1 != null) {
                             Intent intent = new Intent(getApplicationContext(), PrivacyActivity.class);
                             intent.putExtra("flag", "paypal");
@@ -371,7 +374,7 @@ public class MyScanActivity extends Activity implements AdapterView.OnItemClickL
     public void promerceDollar() {
         WalletmEntity walletModel;
         try {
-            if (wallet !=  null && cartModule.getTotalcart() > Double.parseDouble(wallet.getWalletCredit())) {
+            if (wallet !=  null && Double.valueOf(cartModule.getTotalcart()) > Double.parseDouble(wallet.getWalletCredit())) {
                 alertmessage(getString(R.string.balance_alert));
             } else {
                 walletModel = walletModule.getwalletQRfromserver(custid);
@@ -482,7 +485,7 @@ public class MyScanActivity extends Activity implements AdapterView.OnItemClickL
             cardRes.setMerchant_id(params[4]);
 
             try {
-                cardRes.setAmount(cartModule.getTotalcart());
+                cardRes.setAmount(Double.valueOf(cartModule.getTotalcart()));
             } catch (Exception e) {
                 e.printStackTrace();
             }

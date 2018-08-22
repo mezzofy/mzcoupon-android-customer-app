@@ -205,13 +205,13 @@ public class Cart_ProdDetailActivity extends Activity implements OnClickListener
                     if (settings.getString("decimal", "N").equals("Y")) {
 
                         try {
-                            titletext.setText(settings.getString("currency", "IDR") + String.format("%,.2f", cartModule.getTotalcart()));
+                            titletext.setText(settings.getString("currency", "IDR") + String.format("%,.2f", Float.valueOf(cartModule.getTotalcart())));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
                     } else {
                         try {
-                            titletext.setText(settings.getString("currency", "IDR") + String.format("%,.0f", cartModule.getTotalcart()));
+                            titletext.setText(settings.getString("currency", "IDR") + String.format("%,.0f",Float.valueOf(cartModule.getTotalcart())));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

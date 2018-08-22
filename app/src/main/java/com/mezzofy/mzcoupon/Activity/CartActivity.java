@@ -155,7 +155,7 @@ public class CartActivity extends Fragment implements OnClickListener {
 
             titletext = (TextView) view.findViewById(R.id.txtTitle);
 
-            if(cartModule.getTotalcart()>0) {
+            if(Double.valueOf(cartModule.getTotalcart())>0) {
                 if (settings.getString("decimal", "N").equals("Y")) {
                     titletext.setText(settings.getString("currency", "IDR") + String.format("%,.2f", cartModule.getTotalcart()));
                 } else {

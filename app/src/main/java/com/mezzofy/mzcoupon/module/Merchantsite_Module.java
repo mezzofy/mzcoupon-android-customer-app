@@ -5,9 +5,7 @@ import android.content.Context;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.mezzofy.MzCouponAPI.data.SiteDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZSite;
+
 import com.mezzofy.mzcoupon.Entity.SiteEntity;
 import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.MerchantSite_Dao;
@@ -22,6 +20,10 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import mezzofy.com.libmzcoupon.data.SiteDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZSite;
 
 public class Merchantsite_Module {
     Gson gson = new Gson();

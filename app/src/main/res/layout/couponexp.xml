@@ -5,12 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/specialbg">
 
-    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+    <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        app:direction="both">
+        app:srl_direction="both">
 
 
         <ListView
@@ -20,7 +20,7 @@
             android:layout_below="@+id/relative1"
             android:visibility="visible" />
 
-    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
 
     <!-- <ImageView
         android:id="@+id/imageView2"
@@ -39,12 +39,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:visibility="gone" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:id="@+id/nocouponrl"
-        android:layout_marginTop="200dp"
-        android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/imageView17"
@@ -67,7 +61,6 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000"
         android:textSize="15sp" />
-        </RelativeLayout>
 
     <!--<com.faizmalkani.floatingactionbutton.FloatingActionButton-->
     <!--android:id="@+id/fabbutton"-->

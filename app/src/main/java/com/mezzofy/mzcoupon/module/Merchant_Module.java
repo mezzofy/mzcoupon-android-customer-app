@@ -2,9 +2,7 @@ package com.mezzofy.mzcoupon.module;
 
 import android.content.Context;
 
-import com.mezzofy.MzCouponAPI.data.MerchantDataModel;
-import com.mezzofy.MzCouponAPI.mapper.JsonMapper;
-import com.mezzofy.MzCouponAPI.module.MZMerchant;
+
 import com.mezzofy.mzcoupon.Entity.MerchantEntity;
 import com.mezzofy.mzcoupon.Database.CouponDB;
 import com.mezzofy.mzcoupon.Dao.Merchant_Dao;
@@ -16,7 +14,9 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-
+import mezzofy.com.libmzcoupon.data.MerchantDataModel;
+import mezzofy.com.libmzcoupon.mapper.JsonMapper;
+import mezzofy.com.libmzcoupon.module.MZMerchant;
 
 
 public class Merchant_Module {

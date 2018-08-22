@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:background="@drawable/specialbg">
 
-    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+    <com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
         android:id="@+id/swipyrefreshlayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:direction="both">
+        app:srl_direction="both">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -105,7 +105,7 @@
                 </RelativeLayout>
             </LinearLayout>
         </ScrollView>
-    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout>
 
     <ProgressBar
         android:id="@+id/progress1"

@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.mezzofy.MzCouponAPI.utills.APIServerException;
+
 import com.mezzofy.mzcoupon.Entity.CustomerEntity;
 import com.mezzofy.mzcoupon.R;
 import com.mezzofy.mzcoupon.apputills.CommonUtils;
@@ -20,6 +20,8 @@ import com.mezzofy.mzcoupon.module.Customer_Module;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import mezzofy.com.libmzcoupon.utills.APIServerException;
 
 /**
  * Created by udhayinforios on 4/11/16.
